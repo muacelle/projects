@@ -1,3 +1,25 @@
+// DOM manipulation
+
+const body = document.body;
+const div = document.querySelector('div');
+const spanHi = document.querySelector('#hi');
+const spanBye = document.querySelector('#bye');
+
+spanBye.remove();
+div.append(spanBye);
+
+// Events
+
+const btns = document.querySelectorAll('button');
+
+btns.forEach((button) => {
+    button.addEventListener('click', () => {
+        alert(button.id);
+    })
+})
+
+// script
+
 const choice = ['rock', 'paper', 'scissors'];
 
 function getComputerChoice() {
@@ -66,4 +88,4 @@ function game() {
     return (`FINAL WINNER: ${winner}!`)
 }
 
-console.log(game());
+// console.log(game());
