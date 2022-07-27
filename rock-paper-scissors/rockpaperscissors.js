@@ -1,28 +1,28 @@
 // DOM manipulation
 
-const body = document.body;
-const div = document.querySelector('div');
-const spanHi = document.querySelector('#hi');
-const spanBye = document.querySelector('#bye');
-
-spanBye.remove();
-div.append(spanBye);
+const rockBtn = document.querySelector('#rock');
+const paperBtn = document.querySelector('#paper');
+const scissorsBtn = document.querySelector('#scissors');
+const resultDiv = document.querySelector('#results');
 
 // Events
 
-const btns = document.querySelectorAll('button');
+rockBtn.addEventListener('click', e => {
+    singleRound('rock', getComputerChoice());
+})
 
-btns.forEach((button) => {
-    button.addEventListener('click', () => {
-        alert(button.id);
-    })
+paperBtn.addEventListener('click', e => {
+    singleRound('paper', getComputerChoice());
+})
+
+scissorsBtn.addEventListener('click', e => {
+    singleRound('scissors', getComputerChoice());
 })
 
 // script
 
-const choice = ['rock', 'paper', 'scissors'];
-
 function getComputerChoice() {
+    const choice = ['rock', 'paper', 'scissors'];
     return choice[Math.floor(Math.random() * 3)];
 }
 
@@ -30,7 +30,7 @@ function singleRound(playerSelection, computerSelection) {
     let result;
     let score = 0;
     let playerChoice = playerSelection.toLowerCase();
-    console.log(`Player choice: ${playerChoice}!\nComputer choice: ${computerSelection}!`);
+    resultDiv.append(`Player choice: ${playerChoice}!\nComputer choice: ${computerSelection}!`);
 
     if (playerChoice == computerSelection) {
         result = 'Tied!'
@@ -65,11 +65,11 @@ function singleRound(playerSelection, computerSelection) {
             result = 'You Loose! Rock beats Scissors.';
         }
     }
-    console.log(result);
+    resultDiv.append(result);
     return score;
 }
 
-function game() {
+/*function game() {
     let finalScore = 0;
     for (let i = 0; i < 5; i++) {
         console.log(`Round ${i+1}:`)
@@ -86,6 +86,4 @@ function game() {
         winner = "No one! It's a tie.";
     }
     return (`FINAL WINNER: ${winner}!`)
-}
-
-// console.log(game());
+}*/
