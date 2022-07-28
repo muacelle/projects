@@ -81,5 +81,7 @@ function singleRound(playerSelection, computerSelection) {
         final.innerText = `FINAL WINNER: Computer!`
         playerScore = 0;
         computerScore = 0;
+    } else {
+        final.innerText = 'First with 5 wins!'
     }
 }
