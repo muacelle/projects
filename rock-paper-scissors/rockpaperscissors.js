@@ -69,13 +69,17 @@ function singleRound(playerSelection, computerSelection) {
             result = 'You Loose! Rock beats Scissors.';
         }
     }
-    resultDiv.innerText = `Player choice: ${playerChoice}!\nComputer choice: ${computerSelection}! \n${result}`;
+    resultDiv.innerText = `Player choice: ${playerChoice}!\nComputer choice: ${computerSelection}! \n\n${result}`;
     pScore.innerText = `Player: ${playerScore}`;
     cScore.innerText = `Computer: ${computerScore}`;
 
     if (playerScore == 5) {
         final.innerText = `FINAL WINNER: Player!`
+        playerScore = 0;
+        computerScore = 0;
     } else if (computerScore == 5) {
         final.innerText = `FINAL WINNER: Computer!`
+        playerScore = 0;
+        computerScore = 0;
     }
 }
