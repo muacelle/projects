@@ -1,0 +1,61 @@
+:root {
+    --amarelo: #F2A444;
+    --laranja: #F25C05;
+    --tomate: #D90404;
+    --vermelho: #A60303;
+    --branco: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+body {
+    background: var(--amarelo);
+    color: var(--branco);
+}
+
+.focusWatch, .breakWatch {
+    text-align: center;
+    background-color: var(--vermelho);
+    width: 100%;
+    max-width: 360px;
+    margin: 3rem auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.time {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--branco);
+    color: var(--tomate);
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.cicles {
+    background: var(--laranja);
+    padding: 1rem 1rem;
+}
+
+#register {
+    padding: 1rem 1rem;
+}
