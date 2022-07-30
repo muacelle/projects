@@ -62,6 +62,7 @@ function startFocus() {
     secs = 0;
     mins = 0;
     hrs = 0;
+    breakWatch.innerText = `0${hrs}:0${mins}:${secs}`;
     interval = setInterval(timerFocus, 1000);
 }
 
