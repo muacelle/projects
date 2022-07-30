@@ -63,10 +63,11 @@ button {
 }
 
 .cycles {
+    display: flex;
     background: var(--vermelho);
     padding: 1rem 1rem;
 }
 
-#register {
-    padding: 1rem 1rem;
+h2 {
+    padding-right: 1rem;
 }

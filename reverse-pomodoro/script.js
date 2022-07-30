@@ -1,15 +1,10 @@
-// DOM Manipulation
-
 const focusWatch = document.querySelector('.focusWatch .time');
 const breakWatch = document.querySelector('.breakWatch .time');
 
 const focusBtn = document.querySelector('#focusbtn');
 const stopFocBtn = document.querySelector('#stopfocusbtn');
 
-const cycle = document.querySelector('#cycle0');
-const focusTime = document.querySelector('#focustime');
-const breakTime = document.querySelector('#breaktime');
-
+const cyclesSection = document.querySelector('#register');
 
 // Event Listeners
 
@@ -22,6 +17,20 @@ let secs = 0;
 let mins = 0;
 let hrs = 0;
 let num = 1;
+let cyclesArr = [];
+let focRegist = '';
+let brRegist = '';
+
+function addCycle(num, focusTime, breakTime) {
+    cyclesArr.push(
+        `<h3 id="cycle0">Cycle ${num}</h3>
+        <p id="focustime">Focus time: ${focusTime}</p>
+        <p id="breaktime">Break time: ${breakTime}</p>`)
+}
+
+function getCycles() {
+    return cyclesArr.join('');
+}
 
 function timerFocus() {
     secs++
@@ -64,13 +73,14 @@ function timerBreak() {
 function startFocus() {
     if (secs > 0) {
         clearInterval(breakInterval);
-        cycle.innerText = 'Cycle 0' + num;
-        num++;
         if (mins < 10) {
-            breakTime.innerText = `Break time: 0${hrs}:0${mins}:${secs}`
+            brRegist = `0${hrs}:0${mins}:${secs}`;
         } else {
-            breakTime.innerText = `Break time: 0${hrs}:${mins}:${secs}`
+            brRegist = `0${hrs}:${mins}:${secs}`;
         }
+        addCycle(num, focRegist, brRegist);
+        cyclesSection.innerHTML = getCycles();
+        num++;
     }
     secs = 0;
     mins = 0;
@@ -81,11 +91,10 @@ function startFocus() {
 
 function stopFocus() {
     clearInterval(interval);
-    cycle.innerText = 'Cycle 0' + num;
     if (mins < 10) {
-        focusTime.innerText = `Focus time: 0${hrs}:0${mins}:${secs}`
+        focRegist = `0${hrs}:0${mins}:${secs}`;
     } else {
-        focusTime.innerText = `Focus time: 0${hrs}:${mins}:${secs}`
+        focRegist = `0${hrs}:${mins}:${secs}`;
     }
     secs = 0;
     mins = 0;
