@@ -17,11 +17,22 @@ body {
     color: var(--branco);
 }
 
-.focusWatch, .breakWatch {
+.focusWatch {
     text-align: center;
-    background-color: var(--vermelho);
+    background-color: var(--tomate);
     width: 100%;
     max-width: 360px;
+    margin: 3rem auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.breakWatch {
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: var(--laranja);
+    width: 100%;
+    max-width: 280px;
     margin: 3rem auto;
     padding: 1rem 1rem;
     border-radius: 1rem;
@@ -52,7 +63,7 @@ button {
 }
 
 .cicles {
-    background: var(--laranja);
+    background: var(--vermelho);
     padding: 1rem 1rem;
 }
 
