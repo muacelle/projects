@@ -23,9 +23,11 @@ let brRegist = '';
 
 function addCycle(num, focusTime, breakTime) {
     cyclesArr.push(
-        `<h3 id="cycle0">Cycle ${num}</h3>
-        <p id="focustime">Focus time: ${focusTime}</p>
-        <p id="breaktime">Break time: ${breakTime}</p>`)
+        `<div>
+            <h3 id="cycle0">Cycle ${num}</h3>
+            <p id="focustime">Focus time: ${focusTime}</p>
+            <p id="breaktime">Break time: ${breakTime}</p>
+        </div>`)
 }
 
 function getCycles() {

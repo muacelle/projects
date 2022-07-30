@@ -13,8 +13,10 @@
 }
 
 body {
-    background: var(--amarelo);
+    background-image: url(tomates2.jpg);
+    background-size: cover;
     color: var(--branco);
+    letter-spacing: 1.2px;
 }
 
 .focusWatch {
@@ -22,9 +24,11 @@ body {
     background-color: var(--tomate);
     width: 100%;
     max-width: 360px;
-    margin: 3rem auto;
+    margin: 5rem auto;
     padding: 1rem 1rem;
     border-radius: 1rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #F2A444;
 }
 
 .breakWatch {
@@ -36,6 +40,8 @@ body {
     margin: 3rem auto;
     padding: 1rem 1rem;
     border-radius: 1rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #F2A444;
 }
 
 .time {
@@ -51,23 +57,48 @@ body {
 }
 
 button {
+    appearance: none;
+    background: none;
+    border: none;
+
+    display: inline-block;
     cursor: pointer;
     background-color: var(--branco);
     color: var(--tomate);
     margin: 0 1rem;
+    margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
     transition: 0.5s;
+    box-shadow: 0 9px rgb(255, 131, 131);
+}
+
+button:hover {background-color: #ffcccc;}
+
+button:active {
+    box-shadow: 0 4px rgb(255, 131, 131);
+    transform: translateY(4px);
 }
 
 .cycles {
     display: flex;
-    background: var(--vermelho);
+    background: var(--amarelo);
     padding: 1rem 1rem;
+    margin-top: 8rem;
+}
+
+#register {
+    display: flex;
+}
+
+#register div {
+    padding-right: 1.5rem;
+    text-shadow: 1.5px 1.5px 2px #F25C05;
 }
 
 h2 {
-    padding-right: 1rem;
+    padding-right: 2.5rem;
+    text-shadow: 2px 2px rgb(255, 44, 44);
 }
