@@ -1,9 +1,7 @@
 const focusWatch = document.querySelector('.focusWatch .time');
 const breakWatch = document.querySelector('.breakWatch .time');
-
 const focusBtn = document.querySelector('#focusbtn');
 const stopFocBtn = document.querySelector('#stopfocusbtn');
-
 const cyclesSection = document.querySelector('#register');
 
 // Event Listeners
