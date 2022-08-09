@@ -3,26 +3,37 @@ import fs from 'fs'
 import fetch from 'node-fetch';
 
 const ratingsCsv = fs.readFileSync('ratings.csv', 'utf-8').toString();
-const directorsList = [];
 
 const ratingsObj = parse(ratingsCsv, {
     columns: true,
     skip_empty_lines: true
 });
 
-async function getMovieId(nameyear) {
-    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/k_sfmpwgoj/${nameyear}`);
+const last5 = ratingsObj.slice(-2);
+
+async function getDirectorByMovieName(nameyear) {
+    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/k_1p25wqxl/${nameyear}`);
     const data = await response.json();
     const movieId = data.results[0].id;
-    getDirector(movieId);
+    const result = await getDirector(movieId);
+    return result;
 }
 
 async function getDirector(movieid) {
-    const response = await fetch(`https://imdb-api.com/en/API/FullCast/k_sfmpwgoj/${movieid}`);
-    const data = await response.json();
-    const director = data.directors.items[0].name;
-    directorsList.push(director);
-    console.log(directorsList);
+    let response = await fetch(`https://imdb-api.com/en/API/FullCast/k_1p25wqxl/${movieid}`);
+    let data = await response.json();
+    let director = data.directors.items[0].name;
+    return director;
 }
 
-getMovieId('dogtooth 2009')
+async function directorsRatings(movies) {
+    const response = await Promise.all(movies.map(async (movie) => {
+        const movieName = await getDirectorByMovieName(movie.Name);
+        const rating = parseFloat(movie.Rating);
+        return { movieName, rating };
+    }))
+    console.log(response);
+    return response;
+}
+
+directorsRatings(last5);
