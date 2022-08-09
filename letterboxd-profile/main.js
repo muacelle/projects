@@ -9,10 +9,10 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const last5 = ratingsObj.slice(-2);
+const last5 = ratingsObj.slice(-5);
 
-async function getDirectorByMovieName(nameyear) {
-    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/k_1p25wqxl/${nameyear}`);
+async function getDirectorByMovieName(name, year) {
+    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/k_1p25wqxl/${name} ${year}`);
     const data = await response.json();
     const movieId = data.results[0].id;
     const result = await getDirector(movieId);
@@ -28,9 +28,10 @@ async function getDirector(movieid) {
 
 async function directorsRatings(movies) {
     const response = await Promise.all(movies.map(async (movie) => {
-        const movieName = await getDirectorByMovieName(movie.Name);
+        const title = movie.Name;
         const rating = parseFloat(movie.Rating);
-        return { movieName, rating };
+        const director = await getDirectorByMovieName(movie.Name, movie.Year);
+        return { title, director, rating };
     }))
     console.log(response);
     return response;
