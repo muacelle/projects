@@ -2,8 +2,8 @@ import { parse } from 'csv-parse/sync';
 import fs from 'fs'
 import fetch from 'node-fetch';
 
-const keys = ['k_026whftt', 'k_6oy46nx1', 'k_sfmpwgoj', 'k_u8c5djz6'];
-let key = keys[0];
+const keys = ['k_1p25wqxl', 'k_sfmpwgoj', 'k_u8c5djz6', 'k_b7lg0d6i'];
+let key = keys[3];
 
 const ratingsCsv = fs.readFileSync('ratings.csv', 'utf-8').toString();
 
@@ -12,7 +12,7 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const movielist = ratingsObj.slice(51, 60);   // os primeiros estão bugados? 10-60 100-109
+const movielist = ratingsObj.slice(125, 135);   // os primeiros estão bugados? 10-100-125
 
 async function getDirectorByMovieName(name, year) {
     const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${key}/${name} ${year}`);

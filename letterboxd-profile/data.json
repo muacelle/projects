@@ -298,5 +298,330 @@
     "title": "The Handmaiden",
     "director": "Park Chan-wook",
     "rating": 5
+  },
+  {
+    "title": "Contact",
+    "director": "Robert Zemeckis",
+    "rating": 5
+  },
+  {
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "rating": 5
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon Ho",
+    "rating": 5
+  },
+  {
+    "title": "Pretty Woman",
+    "director": "Garry Marshall",
+    "rating": 3
+  },
+  {
+    "title": "Runaway Bride",
+    "director": "Garry Marshall",
+    "rating": 2.5
+  },
+  {
+    "title": "Yesterday",
+    "director": "Danny Boyle",
+    "rating": 3.5
+  },
+  {
+    "title": "Mean Girls",
+    "director": "Mark Waters",
+    "rating": 5
+  },
+  {
+    "title": "Midsommar",
+    "director": "Ari Aster",
+    "rating": 4
+  },
+  {
+    "title": "The Strange Thing About the Johnsons",
+    "director": "Ari Aster",
+    "rating": 3.5
+  },
+  {
+    "title": "El Camino: A Breaking Bad Movie",
+    "director": "Vince Gilligan",
+    "rating": 3
+  },
+  {
+    "title": "Clueless",
+    "director": "Amy Heckerling",
+    "rating": 3
+  },
+  {
+    "title": "Fyre",
+    "director": "Jenner Furst",
+    "rating": 3
+  },
+  {
+    "title": "Happy Death Day",
+    "director": "Christopher Landon",
+    "rating": 3.5
+  },
+  {
+    "title": "Disobedience",
+    "director": "Sebastián Lelio",
+    "rating": 4.5
+  },
+  {
+    "title": "The Witch",
+    "director": "Robert Eggers",
+    "rating": 4
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "director": "Yorgos Lanthimos",
+    "rating": 4.5
+  },
+  {
+    "title": "The Lobster",
+    "director": "Yorgos Lanthimos",
+    "rating": 5
+  },
+  {
+    "title": "Dogtooth",
+    "director": "Yorgos Lanthimos",
+    "rating": 5
+  },
+  {
+    "title": "I, Tonya",
+    "director": "Craig Gillespie",
+    "rating": 3.5
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "director": "Chris Columbus",
+    "rating": 4
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "director": "Robert Heath",
+    "rating": 5
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "director": "Mike Newell",
+    "rating": 4
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "director": "David Yates",
+    "rating": 2.5
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "director": "David Yates",
+    "rating": 2
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": "David Yates",
+    "rating": 3
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "director": "David Yates",
+    "rating": 3
+  },
+  {
+    "title": "The Curious Case of Benjamin Button",
+    "director": "David Fincher",
+    "rating": 4
+  },
+  {
+    "title": "The Social Network",
+    "director": "David Fincher",
+    "rating": 4
+  },
+  {
+    "title": "Zodiac",
+    "director": "David Fincher",
+    "rating": 3.5
+  },
+  {
+    "title": "Mamma Mia!",
+    "director": "Phyllida Lloyd",
+    "rating": 3
+  },
+  {
+    "title": "Before Midnight",
+    "director": "Richard Linklater",
+    "rating": 5
+  },
+  {
+    "title": "Before Sunrise",
+    "director": "Richard Linklater",
+    "rating": 5
+  },
+  {
+    "title": "Upgrade",
+    "director": "Leigh Whannell",
+    "rating": 3.5
+  },
+  {
+    "title": "Scott Pilgrim vs. the World",
+    "director": "Edgar Wright",
+    "rating": 4
+  },
+  {
+    "title": "Donnie Darko",
+    "director": "Richard Kelly",
+    "rating": 5
+  },
+  {
+    "title": "Get Out",
+    "director": "Jordan Peele",
+    "rating": 5
+  },
+  {
+    "title": "Call Me by Your Name",
+    "director": "Luca Guadagnino",
+    "rating": 5
+  },
+  {
+    "title": "The Shape of Water",
+    "director": "Guillermo del Toro",
+    "rating": 4
+  },
+  {
+    "title": "Lady Bird",
+    "director": "Greta Gerwig",
+    "rating": 4
+  },
+  {
+    "title": "Ex Machina",
+    "director": "Jaroslaw Banaszek",
+    "rating": 5
+  },
+  {
+    "title": "Shakespeare in Love",
+    "director": "John Madden",
+    "rating": 0.5
+  },
+  {
+    "title": "Jennifer's Body",
+    "director": "Karyn Kusama",
+    "rating": 4
+  },
+  {
+    "title": "Paterson",
+    "director": "Jim Jarmusch",
+    "rating": 4.5
+  },
+  {
+    "title": "Munchausen",
+    "director": "Ari Aster",
+    "rating": 3
+  },
+  {
+    "title": "Beau",
+    "director": "Ari Aster",
+    "rating": 3
+  },
+  {
+    "title": "Green Vinyl",
+    "director": "Kleber Mendonça Filho",
+    "rating": 4
+  },
+  {
+    "title": "Gaspard at the Wedding",
+    "director": "Antony Cordier",
+    "rating": 3.5
+  },
+  {
+    "title": "Suffragette",
+    "director": "Sarah Gavron",
+    "rating": 2.5
+  },
+  {
+    "title": "The Hateful Eight",
+    "director": "Quentin Tarantino",
+    "rating": 3
+  },
+  {
+    "title": "Two Friends",
+    "director": "Louis Garrel",
+    "rating": 3.5
+  },
+  {
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "director": "Alejandro G. Iñárritu",
+    "rating": 3
+  },
+  {
+    "title": "The Truman Show",
+    "director": "Peter Weir",
+    "rating": 4
+  },
+  {
+    "title": "The Second Mother",
+    "director": "Anna Muylaert",
+    "rating": 4.5
+  },
+  {
+    "title": "Into the Wild",
+    "director": "Sean Penn",
+    "rating": 2.5
+  },
+  {
+    "title": "The Yellow Eyes of Crocodiles",
+    "director": "Cécile Telerman",
+    "rating": 3
+  },
+  {
+    "title": "The Conjuring",
+    "director": "James Wan",
+    "rating": 2
+  },
+  {
+    "title": "Juno",
+    "director": "Jason Reitman",
+    "rating": 3.5
+  },
+  {
+    "title": "300",
+    "director": "Zack Snyder",
+    "rating": 2.5
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "director": "Guillermo del Toro",
+    "rating": 4.5
+  },
+  {
+    "title": "The Bling Ring",
+    "director": "Sofia Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "Melancholia",
+    "director": "Lars von Trier",
+    "rating": 3.5
+  },
+  {
+    "title": "Django Unchained",
+    "director": "Quentin Tarantino",
+    "rating": 3.5
+  },
+  {
+    "title": "Easy A",
+    "director": "Will Gluck",
+    "rating": 4
+  },
+  {
+    "title": "Brave",
+    "director": "Mark Andrews",
+    "rating": 3
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "director": "Bryan Singer",
+    "rating": 3
   }
 ]
