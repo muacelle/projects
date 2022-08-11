@@ -88,5 +88,215 @@
     "title": "Manchester by the Sea",
     "director": "Kenneth Lonergan",
     "rating": 4.5
+  },
+  {
+    "title": "Signs",
+    "director": "M. Night Shyamalan",
+    "rating": 3.5
+  },
+  {
+    "title": "Mary Queen of Scots",
+    "director": "Josie Rourke",
+    "rating": 3.5
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "director": "Bob Persichetti",
+    "rating": 3
+  },
+  {
+    "title": "Captain Marvel",
+    "director": "Anna Boden",
+    "rating": 3.5
+  },
+  {
+    "title": "Us",
+    "director": "Jordan Peele",
+    "rating": 4.5
+  },
+  {
+    "title": "Queen of Earth",
+    "director": "Alex Ross Perry",
+    "rating": 5
+  },
+  {
+    "title": "Setback",
+    "director": "Bulent Ozdemir",
+    "rating": 4
+  },
+  {
+    "title": "Isn't It Romantic",
+    "director": "Todd Strauss-Schulson",
+    "rating": 2
+  },
+  {
+    "title": "The Wife",
+    "director": "Niki Caro",
+    "rating": 3
+  },
+  {
+    "title": "All About My Mother",
+    "director": "Pedro Almodóvar",
+    "rating": 4
+  },
+  {
+    "title": "Locke",
+    "director": "Steven Knight",
+    "rating": 4
+  },
+  {
+    "title": "Maps to the Stars",
+    "director": "David Cronenberg",
+    "rating": 3
+  },
+  {
+    "title": "The Happening",
+    "director": "M. Night Shyamalan",
+    "rating": 2
+  },
+  {
+    "title": "Battle Royale",
+    "director": "Kinji Fukasaku",
+    "rating": 3.5
+  },
+  {
+    "title": "It Follows",
+    "director": "David Robert Mitchell",
+    "rating": 5
+  },
+  {
+    "title": "Glass",
+    "director": "M. Night Shyamalan",
+    "rating": 2.5
+  },
+  {
+    "title": "Lady in the Water",
+    "director": "M. Night Shyamalan",
+    "rating": 4
+  },
+  {
+    "title": "Green Book",
+    "director": "Peter Farrelly",
+    "rating": 3
+  },
+  {
+    "title": "Hush",
+    "director": "Mike Flanagan",
+    "rating": 3.5
+  },
+  {
+    "title": "Fantastic Beasts and Where to Find Them",
+    "director": "David Yates",
+    "rating": 2.5
+  },
+  {
+    "title": "The Life Aquatic with Steve Zissou",
+    "director": "Wes Anderson",
+    "rating": 3.5
+  },
+  {
+    "title": "Bird Box",
+    "director": "Susanne Bier",
+    "rating": 3.5
+  },
+  {
+    "title": "Black Mirror: Bandersnatch",
+    "director": "David Slade",
+    "rating": 3.5
+  },
+  {
+    "title": "BlacKkKlansman",
+    "director": "Spike Lee",
+    "rating": 4.5
+  },
+  {
+    "title": "Logan Lucky",
+    "director": "Steven Soderbergh",
+    "rating": 3.5
+  },
+  {
+    "title": "A Simple Favor",
+    "director": "Paul Feig",
+    "rating": 3.5
+  },
+  {
+    "title": "Mary Shelley",
+    "director": "Haifaa Al-Mansour",
+    "rating": 2.5
+  },
+  {
+    "title": "The Others",
+    "director": "Alejandro Amenábar",
+    "rating": 4
+  },
+  {
+    "title": "Cam",
+    "director": "Daniel Goldhaber",
+    "rating": 4
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "director": "George Miller",
+    "rating": 5
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "director": "Bryan Singer",
+    "rating": 3
+  },
+  {
+    "title": "The Fountain",
+    "director": "Darren Aronofsky",
+    "rating": 3.5
+  },
+  {
+    "title": "Ghost World",
+    "director": "Terry Zwigoff",
+    "rating": 3.5
+  },
+  {
+    "title": "The DUFF",
+    "director": "Ari Sandel",
+    "rating": 3
+  },
+  {
+    "title": "Brooklyn",
+    "director": "John Crowley",
+    "rating": 3.5
+  },
+  {
+    "title": "The Big Sick",
+    "director": "Michael Showalter",
+    "rating": 4
+  },
+  {
+    "title": "Double Lover",
+    "director": "François Ozon",
+    "rating": 3.5
+  },
+  {
+    "title": "Hereditary",
+    "director": "Ari Aster",
+    "rating": 4.5
+  },
+  {
+    "title": "Sierra Burgess Is a Loser",
+    "director": "Ian Samuels",
+    "rating": 2
+  },
+  {
+    "title": "Unbreakable",
+    "director": "M. Night Shyamalan",
+    "rating": 4
+  },
+  {
+    "title": "The Endless",
+    "director": "Justin Benson",
+    "rating": 5
+  },
+  {
+    "title": "The Handmaiden",
+    "director": "Park Chan-wook",
+    "rating": 5
   }
 ]
