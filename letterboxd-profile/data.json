@@ -1,0 +1,92 @@
+[
+  {
+    "title": "A Faithful Man",
+    "director": "Louis Garrel",
+    "rating": 3.5
+  },
+  {
+    "title": "Suspiria",
+    "director": "Luca Guadagnino",
+    "rating": 4
+  },
+  {
+    "title": "45 Days Away from You",
+    "director": "Rafael Gomes",
+    "rating": 2.5
+  },
+  {
+    "title": "Her Smell",
+    "director": "Alex Ross Perry",
+    "rating": 3
+  },
+  {
+    "title": "Requiem for a Dream",
+    "director": "Darren Aronofsky",
+    "rating": 4
+  },
+  {
+    "title": "Trainspotting",
+    "director": "Danny Boyle",
+    "rating": 4
+  },
+  {
+    "title": "No Country for Old Men",
+    "director": "Ethan Coen",
+    "rating": 5
+  },
+  {
+    "title": "The Florida Project",
+    "director": "Sean Baker",
+    "rating": 5
+  },
+  {
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "rating": 2
+  },
+  {
+    "title": "Amélie",
+    "director": "Jean-Pierre Jeunet",
+    "rating": 3
+  },
+  {
+    "title": "Molly's Game",
+    "director": "Aaron Sorkin",
+    "rating": 3
+  },
+  {
+    "title": "Fat Girl",
+    "director": "Catherine Breillat",
+    "rating": 4.5
+  },
+  {
+    "title": "The Favourite",
+    "director": "Yorgos Lanthimos",
+    "rating": 4.5
+  },
+  {
+    "title": "I Feel Pretty",
+    "director": "Abby Kohn",
+    "rating": 3.5
+  },
+  {
+    "title": "Ghost Stories",
+    "director": "David Lowery",
+    "rating": 3
+  },
+  {
+    "title": "The Village",
+    "director": "M. Night Shyamalan",
+    "rating": 4.5
+  },
+  {
+    "title": "Eighth Grade",
+    "director": "Bo Burnham",
+    "rating": 5
+  },
+  {
+    "title": "Manchester by the Sea",
+    "director": "Kenneth Lonergan",
+    "rating": 4.5
+  }
+]
