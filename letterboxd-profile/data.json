@@ -623,5 +623,930 @@
     "title": "X-Men: Days of Future Past",
     "director": "Bryan Singer",
     "rating": 3
+  },
+  {
+    "title": "Dallas Buyers Club",
+    "director": "Jean-Marc Vallée",
+    "rating": 3.5
+  },
+  {
+    "title": "The Wave",
+    "director": "Dennis Gansel",
+    "rating": 3.5
+  },
+  {
+    "title": "Boyhood",
+    "director": "Richard Linklater",
+    "rating": 3.5
+  },
+  {
+    "title": "American Psycho",
+    "director": "Mary Harron",
+    "rating": 2.5
+  },
+  {
+    "title": "The Man Who Copied",
+    "director": "Jorge Furtado",
+    "rating": 4
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "rating": 4
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "rating": 5
+  },
+  {
+    "title": "Batman Begins",
+    "director": "Christopher Nolan",
+    "rating": 3.5
+  },
+  {
+    "title": "Confessions of a Teenage Drama Queen",
+    "director": "Sara Sugarman",
+    "rating": 2
+  },
+  {
+    "title": "Miss Congeniality",
+    "director": "Donald Petrie",
+    "rating": 3.5
+  },
+  {
+    "title": "Spanglish",
+    "director": "James L. Brooks",
+    "rating": 3
+  },
+  {
+    "title": "Dead Poets Society",
+    "director": "Peter Weir",
+    "rating": 4.5
+  },
+  {
+    "title": "Submarine",
+    "director": "Richard Ayoade",
+    "rating": 3.5
+  },
+  {
+    "title": "The Perks of Being a Wallflower",
+    "director": "Stephen Chbosky",
+    "rating": 3
+  },
+  {
+    "title": "Across the Universe",
+    "director": "Julie Taymor",
+    "rating": 4.5
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "rating": 4
+  },
+  {
+    "title": "Hair",
+    "director": "Milos Forman",
+    "rating": 3.5
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "director": "Michel Gondry",
+    "rating": 5
+  },
+  {
+    "title": "Scent of a Woman",
+    "director": "Martin Brest",
+    "rating": 3.5
+  },
+  {
+    "title": "Good Bye Lenin!",
+    "director": "Wolfgang Becker",
+    "rating": 3.5
+  },
+  {
+    "title": "Coco Before Chanel",
+    "director": "Anne Fontaine",
+    "rating": 3.5
+  },
+  {
+    "title": "Ó Paí Ó: Look at This",
+    "director": "Monique Gardenberg",
+    "rating": 4
+  },
+  {
+    "title": "God Bless America",
+    "director": "Bobcat Goldthwait",
+    "rating": 2.5
+  },
+  {
+    "title": "Constantine",
+    "director": "Francis Lawrence",
+    "rating": 3.5
+  },
+  {
+    "title": "A Clockwork Orange",
+    "director": "Stanley Kubrick",
+    "rating": 3.5
+  },
+  {
+    "title": "World's Greatest Dad",
+    "director": "Bobcat Goldthwait",
+    "rating": 3.5
+  },
+  {
+    "title": "Sidewalls",
+    "director": "Gustavo Taretto",
+    "rating": 3.5
+  },
+  {
+    "title": "Blindness",
+    "director": "Fernando Meirelles",
+    "rating": 4
+  },
+  {
+    "title": "Edward Scissorhands",
+    "director": "Tim Burton",
+    "rating": 3.5
+  },
+  {
+    "title": "Avatar",
+    "director": "James Cameron",
+    "rating": 3.5
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "rating": 3.5
+  },
+  {
+    "title": "Bruce Almighty",
+    "director": "Tom Shadyac",
+    "rating": 4
+  },
+  {
+    "title": "V for Vendetta",
+    "director": "James McTeigue",
+    "rating": 3.5
+  },
+  {
+    "title": "The Theory of Everything",
+    "director": "James Marsh",
+    "rating": 3.5
+  },
+  {
+    "title": "Lost in Translation",
+    "director": "Sofia Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "Columbus",
+    "director": "Kogonada",
+    "rating": 5
+  },
+  {
+    "title": "Watchmen",
+    "director": "Zack Snyder",
+    "rating": 2.5
+  },
+  {
+    "title": "Taxi Driver",
+    "director": "Martin Scorsese",
+    "rating": 2.5
+  },
+  {
+    "title": "A Ghost Story",
+    "director": "David Lowery",
+    "rating": 5
+  },
+  {
+    "title": "Black Snow",
+    "director": "Martín Hodara",
+    "rating": 4
+  },
+  {
+    "title": "Heroic Losers",
+    "director": "Sebastián Borensztein",
+    "rating": 3
+  },
+  {
+    "title": "The Stepford Wives",
+    "director": "Bryan Forbes",
+    "rating": 4.5
+  },
+  {
+    "title": "The Invitation",
+    "director": "Karyn Kusama",
+    "rating": 4.5
+  },
+  {
+    "title": "Goodnight Mommy",
+    "director": "Severin Fiala",
+    "rating": 2.5
+  },
+  {
+    "title": "Where'd You Go, Bernadette",
+    "director": "Richard Linklater",
+    "rating": 3
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "director": "Juan José Campanella",
+    "rating": 4
+  },
+  {
+    "title": "Invisible Life",
+    "director": "Karim Aïnouz",
+    "rating": 4.5
+  },
+  {
+    "title": "Marriage Story",
+    "director": "Noah Baumbach",
+    "rating": 4
+  },
+  {
+    "title": "Annie Hall",
+    "director": "Woody Allen",
+    "rating": 3
+  },
+  {
+    "title": "The Invisible Guest",
+    "director": "Oriol Paulo",
+    "rating": 4
+  },
+  {
+    "title": "Transcendence",
+    "director": "Wally Pfister",
+    "rating": 0.5
+  },
+  {
+    "title": "Saving Banksy",
+    "director": "Colin M. Day",
+    "rating": 4
+  },
+  {
+    "title": "Frank",
+    "director": "Lenny Abrahamson",
+    "rating": 3.5
+  },
+  {
+    "title": "The Reader",
+    "director": "Stephen Daldry",
+    "rating": 4.5
+  },
+  {
+    "title": "Leap Year",
+    "director": "Anand Tucker",
+    "rating": 2.5
+  },
+  {
+    "title": "Eyes Wide Shut",
+    "director": "Stanley Kubrick",
+    "rating": 3
+  },
+  {
+    "title": "Pan",
+    "director": "Joe Wright",
+    "rating": 2
+  },
+  {
+    "title": "Clouds of Sils Maria",
+    "director": "Olivier Assayas",
+    "rating": 3
+  },
+  {
+    "title": "Pride & Prejudice",
+    "director": "Joe Wright",
+    "rating": 4
+  },
+  {
+    "title": "Red Sparrow",
+    "director": "Francis Lawrence",
+    "rating": 2
+  },
+  {
+    "title": "Jurassic Park",
+    "director": "Steven Spielberg",
+    "rating": 3
+  },
+  {
+    "title": "The Glass Castle",
+    "director": "Destin Daniel Cretton",
+    "rating": 3.5
+  },
+  {
+    "title": "Memento",
+    "director": "Christopher Nolan",
+    "rating": 4
+  },
+  {
+    "title": "Drive",
+    "director": "Nicolas Winding Refn",
+    "rating": 3.5
+  },
+  {
+    "title": "Black Panther",
+    "director": "Ryan Coogler",
+    "rating": 3.5
+  },
+  {
+    "title": "The Prestige",
+    "director": "Christopher Nolan",
+    "rating": 4
+  },
+  {
+    "title": "The One I Love",
+    "director": "Charlie McDowell",
+    "rating": 5
+  },
+  {
+    "title": "A Dog's Will",
+    "director": "Guel Arraes",
+    "rating": 5
+  },
+  {
+    "title": "The Skin I Live In",
+    "director": "Pedro Almodóvar",
+    "rating": 3
+  },
+  {
+    "title": "Mistress America",
+    "director": "Noah Baumbach",
+    "rating": 4
+  },
+  {
+    "title": "The Young Karl Marx",
+    "director": "Raoul Peck",
+    "rating": 3.5
+  },
+  {
+    "title": "Battle of the Sexes",
+    "director": "Jonathan Dayton",
+    "rating": 3.5
+  },
+  {
+    "title": "Two Irenes",
+    "director": "Fabio Meira",
+    "rating": 3.5
+  },
+  {
+    "title": "The Divine Order",
+    "director": "Petra Biondina Volpe",
+    "rating": 3.5
+  },
+  {
+    "title": "Split",
+    "director": "M. Night Shyamalan",
+    "rating": 3.5
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "director": "Wes Anderson",
+    "rating": 3
+  },
+  {
+    "title": "Godard Mon Amour",
+    "director": "Michel Hazanavicius",
+    "rating": 3.5
+  },
+  {
+    "title": "Trainwreck",
+    "director": "Judd Apatow",
+    "rating": 3
+  },
+  {
+    "title": "Knives Out",
+    "director": "Rian Johnson",
+    "rating": 4.5
+  },
+  {
+    "title": "Teen Spirit",
+    "director": "Max Minghella",
+    "rating": 3.5
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "rating": 3
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "director": "Céline Sciamma",
+    "rating": 4
+  },
+  {
+    "title": "The Lighthouse",
+    "director": "Robert Eggers",
+    "rating": 3.5
+  },
+  {
+    "title": "Mustang",
+    "director": "Deniz Gamze Ergüven",
+    "rating": 5
+  },
+  {
+    "title": "Snowpiercer",
+    "director": "Bong Joon Ho",
+    "rating": 3
+  },
+  {
+    "title": "The Great Gatsby",
+    "director": "Baz Luhrmann",
+    "rating": 4
+  },
+  {
+    "title": "Bombshell",
+    "director": "Jay Roach",
+    "rating": 3.5
+  },
+  {
+    "title": "Personal Shopper",
+    "director": "Olivier Assayas",
+    "rating": 3
+  },
+  {
+    "title": "It Must Be Heaven",
+    "director": "Elia Suleiman",
+    "rating": 3.5
+  },
+  {
+    "title": "La La Land",
+    "director": "Damien Chazelle",
+    "rating": 4.5
+  },
+  {
+    "title": "Christine",
+    "director": "Antonio Campos",
+    "rating": 4
+  },
+  {
+    "title": "Jojo Rabbit",
+    "director": "Taika Waititi",
+    "rating": 4
+  },
+  {
+    "title": "Hustlers",
+    "director": "Lorene Scafaria",
+    "rating": 3.5
+  },
+  {
+    "title": "Gattaca",
+    "director": "Andrew Niccol",
+    "rating": 3
+  },
+  {
+    "title": "The Party",
+    "director": "Sally Potter",
+    "rating": 2
+  },
+  {
+    "title": "Bingo: The King of the Mornings",
+    "director": "Daniel Rezende",
+    "rating": 3.5
+  },
+  {
+    "title": "What Happened to Monday",
+    "director": "Tommy Wirkola",
+    "rating": 3
+  },
+  {
+    "title": "The Beguiled",
+    "director": "Sofia Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "The Movie of My Life",
+    "director": "Selton Mello",
+    "rating": 3
+  },
+  {
+    "title": "XX",
+    "director": "Roxanne Benjamin",
+    "rating": 2
+  },
+  {
+    "title": "Moonlight",
+    "director": "Barry Jenkins",
+    "rating": 4
+  },
+  {
+    "title": "The Space Between Us",
+    "director": "Peter Chelsom",
+    "rating": 1.5
+  },
+  {
+    "title": "The Help",
+    "director": "Tate Taylor",
+    "rating": 4
+  },
+  {
+    "title": "Okja",
+    "director": "Bong Joon Ho",
+    "rating": 4
+  },
+  {
+    "title": "Paris Can Wait",
+    "director": "Eleanor Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "Violette",
+    "director": "Martin Provost",
+    "rating": 5
+  },
+  {
+    "title": "Cube",
+    "director": "Vincenzo Natali",
+    "rating": 3
+  },
+  {
+    "title": "My Week With Marilyn",
+    "director": "Simon Curtis",
+    "rating": 3
+  },
+  {
+    "title": "Dark Places",
+    "director": "Gilles Paquet-Brenner",
+    "rating": 2.5
+  },
+  {
+    "title": "Beauty and the Beast",
+    "director": "Bill Condon",
+    "rating": 1.5
+  },
+  {
+    "title": "Wonder Woman",
+    "director": "Patty Jenkins",
+    "rating": 2.5
+  },
+  {
+    "title": "The Dreamers",
+    "director": "Bernardo Bertolucci",
+    "rating": 3
+  },
+  {
+    "title": "The Discovery",
+    "director": "Charlie McDowell",
+    "rating": 3.5
+  },
+  {
+    "title": "Fargo",
+    "director": "Joel Coen",
+    "rating": 3.5
+  },
+  {
+    "title": "20th Century Women",
+    "director": "Mike Mills",
+    "rating": 4
+  },
+  {
+    "title": "Sisters",
+    "director": "Jason Moore",
+    "rating": 2
+  },
+  {
+    "title": "The Dressmaker",
+    "director": "Jocelyn Moorhouse",
+    "rating": 3.5
+  },
+  {
+    "title": "Blade Runner",
+    "director": "Ridley Scott",
+    "rating": 4
+  },
+  {
+    "title": "Primer",
+    "director": "Shane Carruth",
+    "rating": 4.5
+  },
+  {
+    "title": "Train to Busan",
+    "director": "Sang-ho Yeon",
+    "rating": 3.5
+  },
+  {
+    "title": "Gerald's Game",
+    "director": "Mike Flanagan",
+    "rating": 3
+  },
+  {
+    "title": "Baby Driver",
+    "director": "Edgar Wright",
+    "rating": 3
+  },
+  {
+    "title": "Manhattan Night",
+    "director": "Brian DeCubellis",
+    "rating": 2.5
+  },
+  {
+    "title": "Elizabethtown",
+    "director": "Cameron Crowe",
+    "rating": 3
+  },
+  {
+    "title": "Adaptation.",
+    "director": "Spike Jonze",
+    "rating": 4
+  },
+  {
+    "title": "Margot at the Wedding",
+    "director": "Noah Baumbach",
+    "rating": 4
+  },
+  {
+    "title": "Just Like Our Parents",
+    "director": "Laís Bodanzky",
+    "rating": 3
+  },
+  {
+    "title": "It Chapter Two",
+    "director": "Andy Muschietti",
+    "rating": 2.5
+  },
+  {
+    "title": "Raw",
+    "director": "Julia Ducournau",
+    "rating": 4.5
+  },
+  {
+    "title": "The Dark Tower",
+    "director": "Nikolaj Arcel",
+    "rating": 1
+  },
+  {
+    "title": "Ghost in the Shell",
+    "director": "Mamoru Oshii",
+    "rating": 3.5
+  },
+  {
+    "title": "Dawn of the Planet of the Apes",
+    "director": "Matt Reeves",
+    "rating": 4
+  },
+  {
+    "title": "War for the Planet of the Apes",
+    "director": "Matt Reeves",
+    "rating": 4
+  },
+  {
+    "title": "The Most Hated Woman in America",
+    "director": "Tommy O'Haver",
+    "rating": 3
+  },
+  {
+    "title": "Elle",
+    "director": "Paul Verhoeven",
+    "rating": 4
+  },
+  {
+    "title": "Under the Silver Lake",
+    "director": "David Robert Mitchell",
+    "rating": 3.5
+  },
+  {
+    "title": "Crazy, Stupid, Love.",
+    "director": "Glenn Ficarra",
+    "rating": 2.5
+  },
+  {
+    "title": "Nise: The Heart of Madness",
+    "director": "Roberto Berliner",
+    "rating": 4
+  },
+  {
+    "title": "Hidden Figures",
+    "director": "Theodore Melfi",
+    "rating": 3
+  },
+  {
+    "title": "Swiss Army Man",
+    "director": "Dan Kwan",
+    "rating": 3
+  },
+  {
+    "title": "Nocturnal Animals",
+    "director": "Tom Ford",
+    "rating": 2
+  },
+  {
+    "title": "Captain Fantastic",
+    "director": "Matt Ross",
+    "rating": 4
+  },
+  {
+    "title": "Elis",
+    "director": "Hugo Prata",
+    "rating": 3.5
+  },
+  {
+    "title": "Fantastic Beasts: The Crimes of Grindelwald",
+    "director": "David Yates",
+    "rating": 2
+  },
+  {
+    "title": "Zathura: A Space Adventure",
+    "director": "Jon Favreau",
+    "rating": 3.5
+  },
+  {
+    "title": "Ghostbusters",
+    "director": "Ivan Reitman",
+    "rating": 2
+  },
+  {
+    "title": "Ghostbusters",
+    "director": "Paul Feig",
+    "rating": 2.5
+  },
+  {
+    "title": "I Origins",
+    "director": "Mike Cahill",
+    "rating": 0.5
+  },
+  {
+    "title": "The Kids Are All Right",
+    "director": "Lisa Cholodenko",
+    "rating": 3.5
+  },
+  {
+    "title": "Black Swan",
+    "director": "Darren Aronofsky",
+    "rating": 3
+  },
+  {
+    "title": "Big Eyes",
+    "director": "Tim Burton",
+    "rating": 3
+  },
+  {
+    "title": "Look Who's Back",
+    "director": "David Wnendt",
+    "rating": 3.5
+  },
+  {
+    "title": "The Big Short",
+    "director": "Adam McKay",
+    "rating": 2.5
+  },
+  {
+    "title": "Source Code",
+    "director": "Duncan Jones",
+    "rating": 3
+  },
+  {
+    "title": "Advantageous",
+    "director": "Jennifer Phang",
+    "rating": 3.5
+  },
+  {
+    "title": "Coherence",
+    "director": "James Ward Byrkit",
+    "rating": 5
+  },
+  {
+    "title": "Mulan",
+    "director": "Tony Bancroft",
+    "rating": 5
+  },
+  {
+    "title": "Maleficent",
+    "director": "Robert Stromberg",
+    "rating": 3
+  },
+  {
+    "title": "Nightcrawler",
+    "director": "Dan Gilroy",
+    "rating": 4
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "director": "Francis Lawrence",
+    "rating": 3
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "director": "Francis Lawrence",
+    "rating": 3
+  },
+  {
+    "title": "The Nightmare Before Christmas",
+    "director": "Henry Selick",
+    "rating": 3.5
+  },
+  {
+    "title": "Life of Pi",
+    "director": "Ang Lee",
+    "rating": 3
+  },
+  {
+    "title": "Kingsman: The Secret Service",
+    "director": "Matthew Vaughn",
+    "rating": 2.5
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "director": "Stanley Kubrick",
+    "rating": 4
+  },
+  {
+    "title": "Ratatouille",
+    "director": "Brad Bird",
+    "rating": 2.5
+  },
+  {
+    "title": "Whiplash",
+    "director": "Damien Chazelle",
+    "rating": 2.5
+  },
+  {
+    "title": "Enemy",
+    "director": "Denis Villeneuve",
+    "rating": 3.5
+  },
+  {
+    "title": "Back to the Future",
+    "director": "Robert Zemeckis",
+    "rating": 3.5
+  },
+  {
+    "title": "Léon: The Professional",
+    "director": "Luc Besson",
+    "rating": 3
+  },
+  {
+    "title": "Mr. Nobody",
+    "director": "Jaco Van Dormael",
+    "rating": 3
+  },
+  {
+    "title": "Shutter Island",
+    "director": "Martin Scorsese",
+    "rating": 3.5
+  },
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "rating": 4
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "director": "Martin Scorsese",
+    "rating": 4
+  },
+  {
+    "title": "The Neon Demon",
+    "director": "Nicolas Winding Refn",
+    "rating": 3
+  },
+  {
+    "title": "Blue Jasmine",
+    "director": "Woody Allen",
+    "rating": 2.5
+  },
+  {
+    "title": "Cloverfield",
+    "director": "Matt Reeves",
+    "rating": 4
+  },
+  {
+    "title": "The Virgin Suicides",
+    "director": "Sofia Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "Her",
+    "director": "Spike Jonze",
+    "rating": 3.5
+  },
+  {
+    "title": "The Congress",
+    "director": "Ari Folman",
+    "rating": 3.5
+  },
+  {
+    "title": "Aquarius",
+    "director": "Kleber Mendonça Filho",
+    "rating": 4
+  },
+  {
+    "title": "Suicide Squad",
+    "director": "David Ayer",
+    "rating": 1.5
+  },
+  {
+    "title": "10 Cloverfield Lane",
+    "director": "Dan Trachtenberg",
+    "rating": 4.5
+  },
+  {
+    "title": "Brokeback Mountain",
+    "director": "Ang Lee",
+    "rating": 5
+  },
+  {
+    "title": "About Time",
+    "director": "Richard Curtis",
+    "rating": 4.5
   }
 ]
