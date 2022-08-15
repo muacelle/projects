@@ -2173,5 +2173,55 @@
     "title": "The Voyeurs",
     "director": "Michael Mohan",
     "rating": 2
+  },
+  {
+    "title": "Spencer",
+    "director": "Pablo Larraín",
+    "rating": 3.5
+  },
+  {
+    "title": "School's Out",
+    "director": "Sébastien Marnier",
+    "rating": 5
+  },
+  {
+    "title": "The Humans",
+    "director": "Stephen Karam",
+    "rating": 4.5
+  },
+  {
+    "title": "The Matrix Resurrections",
+    "director": "Lana Wachowski",
+    "rating": 3.5
+  },
+  {
+    "title": "Don't Look Up",
+    "director": "Adam McKay",
+    "rating": 3.5
+  },
+  {
+    "title": "The Hunger Games: Catching Fire",
+    "director": "Francis Lawrence",
+    "rating": 3.5
+  },
+  {
+    "title": "The Power of the Dog",
+    "director": "Jane Campion",
+    "rating": 4
+  },
+  {
+    "title": "The Lost Daughter",
+    "director": "Maggie Gyllenhaal",
+    "rating": 4.5
+  },
+  {
+    "title": "The Worst Person in the World",
+    "director": "Joachim Trier",
+    "rating": 3.5
+  },
+  {
+    "title": "The Hunger Games",
+    "director": "Gary Ross",
+    "rating": 3
   }
 ]
