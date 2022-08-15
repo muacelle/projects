@@ -10,28 +10,13 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const movielist = ratingsObj.slice(520, 540);   // 10-335 / 350-370 / 400-480 / 490 - 520
+const movielist = ratingsObj.slice(565, 570);   // 0 - 560 / 570 - 622 **Bugs: 1408 (337), bo burnham (488)
 
-async function getDirectorByMovieName(name, year) {
-    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${process.env.KEY}/${name} ${year}`);
-    const data = await response.json();
-    const movieId = data.results[0].id;
-    const result = await getDirector(movieId);
-    return result;
-}
-
-async function getDirector(movieid) {
-    let response = await fetch(`https://imdb-api.com/en/API/FullCast/${process.env.KEY}/${movieid}`);
-    let data = await response.json();
-    let director = data.directors.items[0].name;
-    return director;
-}
-
-async function directorsRatings(movies) {
+async function getMoviesFromCsv(movies) {
     const response = await Promise.all(movies.map(async (movie) => {
         const title = movie.Name;
         const rating = parseFloat(movie.Rating);
-        const director = await getDirectorByMovieName(movie.Name, movie.Year);
+        const director = await getMovieID(movie.Name, movie.Year);
         return { title, director, rating };  
     }))
 
@@ -44,21 +29,22 @@ async function directorsRatings(movies) {
     return updatedList;
 }
 
-function getFavorites (list) {
-    let arr = [];
-    let count = {};
-    list.forEach(elem => { arr.push(elem.director) });             // cria uma arr com todas as entradas de diretores
-    arr.forEach(elem => { count[elem] = (count[elem] || 0) + 1 }); // se o diretor ainda não estiver em arr, count[elem] == false -> count[elem] = 0 + 1
-
-    return Object
-    .entries(count)                                                // transforma em array
-    .sort((a, b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0)); // organiza por ordem dos + assistidos
+async function getMovieID(name, year) {
+    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${process.env.KEY}/${name} ${year}`);
+    const data = await response.json();
+    const movieId = data.results[0].id;
+    const result = await getDirectorName(movieId);
+    return result;
 }
 
+async function getDirectorName(movieid) {
+    let response = await fetch(`https://imdb-api.com/en/API/FullCast/${process.env.KEY}/${movieid}`);
+    let data = await response.json();
+    let director = data.directors.items[0].name;
+    return director;
+}
 
 (async () => {
-    const movies = await directorsRatings(movielist);
+    const movies = await getMoviesFromCsv(movielist);
     console.log('Saved!');
 })()
-
-//const grouped = getFavorites(movies);

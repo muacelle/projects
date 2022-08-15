@@ -2223,5 +2223,720 @@
     "title": "The Hunger Games",
     "director": "Gary Ross",
     "rating": 3
+  },
+  {
+    "title": "Lamb",
+    "director": "Valdimar Jóhannsson",
+    "rating": 4.5
+  },
+  {
+    "title": "The French Dispatch",
+    "director": "Wes Anderson",
+    "rating": 3
+  },
+  {
+    "title": "All Hands on Deck!",
+    "director": "Guillaume Brac",
+    "rating": 4
+  },
+  {
+    "title": "Harry Potter 20th Anniversary: Return to Hogwarts",
+    "director": "Casey Patterson",
+    "rating": 4
+  },
+  {
+    "title": "Junior",
+    "director": "Julia Ducournau",
+    "rating": 4
+  },
+  {
+    "title": "Scream 3",
+    "director": "Wes Craven",
+    "rating": 3
+  },
+  {
+    "title": "Scream 4",
+    "director": "Wes Craven",
+    "rating": 3
+  },
+  {
+    "title": "Titane",
+    "director": "Julia Ducournau",
+    "rating": 4.5
+  },
+  {
+    "title": "Friends and Strangers",
+    "director": "James Vaughan",
+    "rating": 3.5
+  },
+  {
+    "title": "The Rescue",
+    "director": "Jimmy Chin",
+    "rating": 4
+  },
+  {
+    "title": "House of Gucci",
+    "director": "Ridley Scott",
+    "rating": 2.5
+  },
+  {
+    "title": "The Long Goodbye",
+    "director": "Aneil Karia",
+    "rating": 3.5
+  },
+  {
+    "title": "Wasp",
+    "director": "Andrea Arnold",
+    "rating": 4
+  },
+  {
+    "title": "While We're Young",
+    "director": "Noah Baumbach",
+    "rating": 3
+  },
+  {
+    "title": "The Tinder Swindler",
+    "director": "Felicity Morris",
+    "rating": 3
+  },
+  {
+    "title": "Nightmare Alley",
+    "director": "Guillermo del Toro",
+    "rating": 3.5
+  },
+  {
+    "title": "Parallel Mothers",
+    "director": "Pedro Almodóvar",
+    "rating": 3.5
+  },
+  {
+    "title": "Licorice Pizza",
+    "director": "Paul Thomas Anderson",
+    "rating": 4.5
+  },
+  {
+    "title": "Volver",
+    "director": "Pedro Almodóvar",
+    "rating": 4
+  },
+  {
+    "title": "Scream",
+    "director": "Matt Bettinelli-Olpin",
+    "rating": 3
+  },
+  {
+    "title": "West Side Story",
+    "director": "Steven Spielberg",
+    "rating": 3.5
+  },
+  {
+    "title": "Fresh",
+    "director": "Mimi Cave",
+    "rating": 4
+  },
+  {
+    "title": "The Inventor: Out for Blood in Silicon Valley",
+    "director": "Alex Gibney",
+    "rating": 4
+  },
+  {
+    "title": "Turning Red",
+    "director": "Domee Shi",
+    "rating": 5
+  },
+  {
+    "title": "CODA",
+    "director": "Sian Heder",
+    "rating": 3.5
+  },
+  {
+    "title": "Landscapers",
+    "director": "Jonathan Alley",
+    "rating": 3.5
+  },
+  {
+    "title": "I'm Your Man",
+    "director": "Maria Schrader",
+    "rating": 3.5
+  },
+  {
+    "title": "The Dropout",
+    "director": "Michael Showalter",
+    "rating": 4
+  },
+  {
+    "title": "The Master",
+    "director": "Paul Thomas Anderson",
+    "rating": 3.5
+  },
+  {
+    "title": "Drive My Car",
+    "director": "Ryûsuke Hamaguchi",
+    "rating": 4
+  },
+  {
+    "title": "Asako I & II",
+    "director": "Ryûsuke Hamaguchi",
+    "rating": 3
+  },
+  {
+    "title": "I Care a Lot",
+    "director": "J Blakeson",
+    "rating": 3
+  },
+  {
+    "title": "The Batman",
+    "director": "Matt Reeves",
+    "rating": 3
+  },
+  {
+    "title": "Estômago: A Gastronomic Story",
+    "director": "Marcos Jorge",
+    "rating": 3.5
+  },
+  {
+    "title": "Sicario",
+    "director": "Denis Villeneuve",
+    "rating": 4
+  },
+  {
+    "title": "Reprise",
+    "director": "Joachim Trier",
+    "rating": 4
+  },
+  {
+    "title": "Unrelated",
+    "director": "Joanna Hogg",
+    "rating": 4
+  },
+  {
+    "title": "Plus One",
+    "director": "Jeff Chan",
+    "rating": 3
+  },
+  {
+    "title": "Station Eleven",
+    "director": "Jeremy Podeswa",
+    "rating": 4
+  },
+  {
+    "title": "Mrs. Fletcher",
+    "director": "Carrie Brownstein",
+    "rating": 4
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "director": "Alfonso Cuarón",
+    "rating": 4.5
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "director": "Martin McDonagh",
+    "rating": 4.5
+  },
+  {
+    "title": "mother!",
+    "director": "Darren Aronofsky",
+    "rating": 4.5
+  },
+  {
+    "title": "Children of Men",
+    "director": "Alfonso Cuarón",
+    "rating": 4.5
+  },
+  {
+    "title": "Rosemary's Baby",
+    "director": "Roman Polanski",
+    "rating": 4.5
+  },
+  {
+    "title": "Girl, Interrupted",
+    "director": "James Mangold",
+    "rating": 4.5
+  },
+  {
+    "title": "Guava Island",
+    "director": "Hiro Murai",
+    "rating": 4.5
+  },
+  {
+    "title": "The Secret Garden",
+    "director": "Agnieszka Holland",
+    "rating": 4.5
+  },
+  {
+    "title": "Mona Lisa Smile",
+    "director": "Mike Newell",
+    "rating": 4.5
+  },
+  {
+    "title": "The Nest",
+    "director": "Sean Durkin",
+    "rating": 4.5
+  },
+  {
+    "title": "EverAfter",
+    "director": "Andy Tennant",
+    "rating": 4.5
+  },
+  {
+    "title": "One Child Nation",
+    "director": "Nanfu Wang",
+    "rating": 4.5
+  },
+  {
+    "title": "Cold Tropics",
+    "director": "Kleber Mendonça Filho",
+    "rating": 4.5
+  },
+  {
+    "title": "It",
+    "director": "Andy Muschietti",
+    "rating": 4
+  },
+  {
+    "title": "Catch Me If You Can",
+    "director": "Steven Spielberg",
+    "rating": 4
+  },
+  {
+    "title": "The Green Knight",
+    "director": "David Lowery",
+    "rating": 5
+  },
+  {
+    "title": "Roma",
+    "director": "Alfonso Cuarón",
+    "rating": 4
+  },
+  {
+    "title": "What We Do in the Shadows",
+    "director": "Jemaine Clement",
+    "rating": 4
+  },
+  {
+    "title": "Before Sunset",
+    "director": "Richard Linklater",
+    "rating": 4
+  },
+  {
+    "title": "Rise of the Planet of the Apes",
+    "director": "Rupert Wyatt",
+    "rating": 4
+  },
+  {
+    "title": "Closer",
+    "director": "Mike Nichols",
+    "rating": 4
+  },
+  {
+    "title": "The Vast of Night",
+    "director": "Andrew Patterson",
+    "rating": 4
+  },
+  {
+    "title": "Tully",
+    "director": "Jason Reitman",
+    "rating": 4
+  },
+  {
+    "title": "Oslo, August 31st",
+    "director": "Joachim Trier",
+    "rating": 3.5
+  },
+  {
+    "title": "The Northman",
+    "director": "Robert Eggers",
+    "rating": 3.5
+  },
+  {
+    "title": "Me Before You",
+    "director": "Thea Sharrock",
+    "rating": 2
+  },
+  {
+    "title": "American Beauty",
+    "director": "Sam Mendes",
+    "rating": 4.5
+  },
+  {
+    "title": "Alien",
+    "director": "Ridley Scott",
+    "rating": 4.5
+  },
+  {
+    "title": "The Shining",
+    "director": "Stanley Kubrick",
+    "rating": 4.5
+  },
+  {
+    "title": "Joker",
+    "director": "Todd Phillips",
+    "rating": 3.5
+  },
+  {
+    "title": "Once Upon a Time… in Hollywood",
+    "director": "Quentin Tarantino",
+    "rating": 3.5
+  },
+  {
+    "title": "Nomadland",
+    "director": "Chloé Zhao",
+    "rating": 3.5
+  },
+  {
+    "title": "Annihilation",
+    "director": "Alex Garland",
+    "rating": 3.5
+  },
+  {
+    "title": "Stalker",
+    "director": "Andrei Tarkovsky",
+    "rating": 4.5
+  },
+  {
+    "title": "Under the Skin",
+    "director": "Jonathan Glazer",
+    "rating": 4.5
+  },
+  {
+    "title": "Prometheus",
+    "director": "Ridley Scott",
+    "rating": 3.5
+  },
+  {
+    "title": "Alps",
+    "director": "Yorgos Lanthimos",
+    "rating": 3.5
+  },
+  {
+    "title": "Cuba and the Cameraman",
+    "director": "Jon Alpert",
+    "rating": 4.5
+  },
+  {
+    "title": "The Duchess",
+    "director": "Saul Dibb",
+    "rating": 3.5
+  },
+  {
+    "title": "Take Shelter",
+    "director": "Jeff Nichols",
+    "rating": 2
+  },
+  {
+    "title": "Perfect Sense",
+    "director": "David Mackenzie",
+    "rating": 3.5
+  },
+  {
+    "title": "Under the Sand",
+    "director": "François Ozon",
+    "rating": 4
+  },
+  {
+    "title": "In the Mood for Love",
+    "director": "Kar-Wai Wong",
+    "rating": 4
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "director": "Dan Kwan",
+    "rating": 4
+  },
+  {
+    "title": "Chloe",
+    "director": "Atom Egoyan",
+    "rating": 2
+  },
+  {
+    "title": "Amateur",
+    "director": "Hal Hartley",
+    "rating": 4
+  },
+  {
+    "title": "Maelström",
+    "director": "Denis Villeneuve",
+    "rating": 4.5
+  },
+  {
+    "title": "Psycho",
+    "director": "Alfred Hitchcock",
+    "rating": 3.5
+  },
+  {
+    "title": "Towards Tenderness",
+    "director": "Alice Diop",
+    "rating": 3.5
+  },
+  {
+    "title": "The Great Beauty",
+    "director": "Paolo Sorrentino",
+    "rating": 3
+  },
+  {
+    "title": "Women on the Verge of a Nervous Breakdown",
+    "director": "Pedro Almodóvar",
+    "rating": 4
+  },
+  {
+    "title": "Crimes of the Future",
+    "director": "David Cronenberg",
+    "rating": 3
+  },
+  {
+    "title": "After the Wedding",
+    "director": "Susanne Bier",
+    "rating": 5
+  },
+  {
+    "title": "Bacurau",
+    "director": "Juliano Dornelles",
+    "rating": 5
+  },
+  {
+    "title": "Inside Man",
+    "director": "Spike Lee",
+    "rating": 3
+  },
+  {
+    "title": "Runaway Jury",
+    "director": "Gary Fleder",
+    "rating": 3.5
+  },
+  {
+    "title": "Greta",
+    "director": "Neil Jordan",
+    "rating": 1
+  },
+  {
+    "title": "I Am Mother",
+    "director": "Grant Sputore",
+    "rating": 3.5
+  },
+  {
+    "title": "Pain and Glory",
+    "director": "Pedro Almodóvar",
+    "rating": 3.5
+  },
+  {
+    "title": "Everybody Knows",
+    "director": "Asghar Farhadi",
+    "rating": 5
+  },
+  {
+    "title": "Booksmart",
+    "director": "Olivia Wilde",
+    "rating": 3.5
+  },
+  {
+    "title": "Ben Is Back",
+    "director": "Peter Hedges",
+    "rating": 4
+  },
+  {
+    "title": "Little Women",
+    "director": "Greta Gerwig",
+    "rating": 4.5
+  },
+  {
+    "title": "The Platform",
+    "director": "Galder Gaztelu-Urrutia",
+    "rating": 2.5
+  },
+  {
+    "title": "Memoirs of a Geisha",
+    "director": "Rob Marshall",
+    "rating": 4
+  },
+  {
+    "title": "Dark Shadows",
+    "director": "Tim Burton",
+    "rating": 1.5
+  },
+  {
+    "title": "What We Did on Our Holiday",
+    "director": "Andy Hamilton",
+    "rating": 3.5
+  },
+  {
+    "title": "Carnage",
+    "director": "Roman Polanski",
+    "rating": 4.5
+  },
+  {
+    "title": "Misery",
+    "director": "Rob Reiner",
+    "rating": 4
+  },
+  {
+    "title": "Carrie",
+    "director": "Brian De Palma",
+    "rating": 3.5
+  },
+  {
+    "title": "Where the Wild Things Are",
+    "director": "Spike Jonze",
+    "rating": 4
+  },
+  {
+    "title": "I, Robot",
+    "director": "Alex Proyas",
+    "rating": 3
+  },
+  {
+    "title": "Tomorrowland",
+    "director": "Brad Bird",
+    "rating": 2
+  },
+  {
+    "title": "101 Dalmatians",
+    "director": "Stephen Herek",
+    "rating": 3
+  },
+  {
+    "title": "Inglourious Basterds",
+    "director": "Quentin Tarantino",
+    "rating": 4
+  },
+  {
+    "title": "Toy Story 4",
+    "director": "Josh Cooley",
+    "rating": 3
+  },
+  {
+    "title": "That's It",
+    "director": "Curt Morgan",
+    "rating": 2
+  },
+  {
+    "title": "(500) Days of Summer",
+    "director": "Marc Webb",
+    "rating": 4
+  },
+  {
+    "title": "Valentine's Day",
+    "director": "Garry Marshall",
+    "rating": 2
+  },
+  {
+    "title": "The Cabin in the Woods",
+    "director": "Drew Goddard",
+    "rating": 3.5
+  },
+  {
+    "title": "Notting Hill",
+    "director": "Roger Michell",
+    "rating": 3.5
+  },
+  {
+    "title": "A Quiet Place",
+    "director": "John Krasinski",
+    "rating": 4
+  },
+  {
+    "title": "The Mist",
+    "director": "Frank Darabont",
+    "rating": 4
+  },
+  {
+    "title": "The Gift",
+    "director": "Joel Edgerton",
+    "rating": 4
+  },
+  {
+    "title": "Frances Ha",
+    "director": "Noah Baumbach",
+    "rating": 3.5
+  },
+  {
+    "title": "Horns",
+    "director": "Alexandre Aja",
+    "rating": 3
+  },
+  {
+    "title": "Inherent Vice",
+    "director": "Paul Thomas Anderson",
+    "rating": 3.5
+  },
+  {
+    "title": "Mulholland Drive",
+    "director": "David Lynch",
+    "rating": 3.5
+  },
+  {
+    "title": "A Serious Man",
+    "director": "Ethan Coen",
+    "rating": 3.5
+  },
+  {
+    "title": "Chicken Run",
+    "director": "Peter Lord",
+    "rating": 4.5
+  },
+  {
+    "title": "Moulin Rouge!",
+    "director": "Baz Luhrmann",
+    "rating": 3
+  },
+  {
+    "title": "The Double",
+    "director": "Richard Ayoade",
+    "rating": 4
+  },
+  {
+    "title": "Next Floor",
+    "director": "Denis Villeneuve",
+    "rating": 4.5
+  },
+  {
+    "title": "Cautionary Tales",
+    "director": "Christopher Barrett",
+    "rating": 3.5
+  },
+  {
+    "title": "Fried Green Tomatoes",
+    "director": "Jon Avnet",
+    "rating": 3.5
+  },
+  {
+    "title": "Unpregnant",
+    "director": "Rachel Lee Goldenberg",
+    "rating": 3
+  },
+  {
+    "title": "Triangle",
+    "director": "Christopher Smith",
+    "rating": 3.5
+  },
+  {
+    "title": "Polytechnique",
+    "director": "Denis Villeneuve",
+    "rating": 5
+  },
+  {
+    "title": "Olla",
+    "director": "Ariane Labed",
+    "rating": 3.5
+  },
+  {
+    "title": "Nimic",
+    "director": "Yorgos Lanthimos",
+    "rating": 4
+  },
+  {
+    "title": "Pity",
+    "director": "Babis Makridis",
+    "rating": 2
+  },
+  {
+    "title": "July Tales",
+    "director": "Guillaume Brac",
+    "rating": 3.5
+  },
+  {
+    "title": "Open Your Eyes",
+    "director": "Alejandro Amenábar",
+    "rating": 3.5
   }
 ]
