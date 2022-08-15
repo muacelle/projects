@@ -12,7 +12,7 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const movielist = ratingsObj.slice(320, 330);   // os primeiros estão bugados? 10-320
+const movielist = ratingsObj.slice(510, 520);   // 10-335 / 350-370 / 400-480 / 490 - 510
 
 async function getDirectorByMovieName(name, year) {
     const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${key}/${name} ${year}`);

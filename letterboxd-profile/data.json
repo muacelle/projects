@@ -1548,5 +1548,630 @@
     "title": "About Time",
     "director": "Richard Curtis",
     "rating": 4.5
+  },
+  {
+    "title": "Anomalisa",
+    "director": "Duke Johnson",
+    "rating": 3
+  },
+  {
+    "title": "The Revenant",
+    "director": "Alejandro G. Iñárritu",
+    "rating": 2
+  },
+  {
+    "title": "Room",
+    "director": "Lenny Abrahamson",
+    "rating": 4
+  },
+  {
+    "title": "All the Bright Places",
+    "director": "Brett Haley",
+    "rating": 2
+  },
+  {
+    "title": "The Hours",
+    "director": "Stephen Daldry",
+    "rating": 4
+  },
+  {
+    "title": "The Host",
+    "director": "Bong Joon Ho",
+    "rating": 3.5
+  },
+  {
+    "title": "Memories of Murder",
+    "director": "Bong Joon Ho",
+    "rating": 4
+  },
+  {
+    "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+    "director": "Cathy Yan",
+    "rating": 3
+  },
+  {
+    "title": "Contagion",
+    "director": "Steven Soderbergh",
+    "rating": 2.5
+  },
+  {
+    "title": "The Invisible Man",
+    "director": "James Whale",
+    "rating": 3
+  },
+  {
+    "title": "Panic Room",
+    "director": "David Fincher",
+    "rating": 4
+  },
+  {
+    "title": "Emma.",
+    "director": "Autumn de Wilde",
+    "rating": 3.5
+  },
+  {
+    "title": "Vivarium",
+    "director": "Lorcan Finnegan",
+    "rating": 4
+  },
+  {
+    "title": "[REC]",
+    "director": "Jaume Balagueró",
+    "rating": 4.5
+  },
+  {
+    "title": "Being John Malkovich",
+    "director": "Spike Jonze",
+    "rating": 5
+  },
+  {
+    "title": "Hercules",
+    "director": "Ron Clements",
+    "rating": 4
+  },
+  {
+    "title": "Elysium",
+    "director": "Neill Blomkamp",
+    "rating": 2.5
+  },
+  {
+    "title": "Kick-Ass",
+    "director": "Matthew Vaughn",
+    "rating": 3.5
+  },
+  {
+    "title": "Hancock",
+    "director": "Peter Berg",
+    "rating": 3
+  },
+  {
+    "title": "Milk",
+    "director": "Gus Van Sant",
+    "rating": 3.5
+  },
+  {
+    "title": "Men, Women & Children",
+    "director": "Jason Reitman",
+    "rating": 3.5
+  },
+  {
+    "title": "Godzilla",
+    "director": "Gareth Edwards",
+    "rating": 2.5
+  },
+  {
+    "title": "Chef",
+    "director": "Jon Favreau",
+    "rating": 3.5
+  },
+  {
+    "title": "Elvira, Mistress of the Dark",
+    "director": "James Signorelli",
+    "rating": 5
+  },
+  {
+    "title": "Super 8",
+    "director": "J.J. Abrams",
+    "rating": 3.5
+  },
+  {
+    "title": "The Fox and the Hound",
+    "director": "Ted Berman",
+    "rating": 5
+  },
+  {
+    "title": "Sucker Punch",
+    "director": "Zack Snyder",
+    "rating": 3.5
+  },
+  {
+    "title": "The Tourist",
+    "director": "Florian Henckel von Donnersmarck",
+    "rating": 1
+  },
+  {
+    "title": "Anastasia",
+    "director": "Don Bluth",
+    "rating": 4
+  },
+  {
+    "title": "The Intern",
+    "director": "Nancy Meyers",
+    "rating": 3
+  },
+  {
+    "title": "The Hunchback of Notre Dame",
+    "director": "Gary Trousdale",
+    "rating": 4
+  },
+  {
+    "title": "Alice in Wonderland",
+    "director": "Tim Burton",
+    "rating": 1.5
+  },
+  {
+    "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "director": "Tim Burton",
+    "rating": 3
+  },
+  {
+    "title": "Jurassic World",
+    "director": "Colin Trevorrow",
+    "rating": 3
+  },
+  {
+    "title": "Beauty and the Beast",
+    "director": "Gary Trousdale",
+    "rating": 4
+  },
+  {
+    "title": "Sunshine Cleaning",
+    "director": "Christine Jeffs",
+    "rating": 3.5
+  },
+  {
+    "title": "I Am Not an Easy Man",
+    "director": "Eléonore Pourriat",
+    "rating": 4
+  },
+  {
+    "title": "Grosse Pointe Blank",
+    "director": "George Armitage",
+    "rating": 3
+  },
+  {
+    "title": "Never Rarely Sometimes Always",
+    "director": "Eliza Hittman",
+    "rating": 4.5
+  },
+  {
+    "title": "Phantom Thread",
+    "director": "Paul Thomas Anderson",
+    "rating": 2.5
+  },
+  {
+    "title": "An Education",
+    "director": "Lone Scherfig",
+    "rating": 4
+  },
+  {
+    "title": "Twilight",
+    "director": "Catherine Hardwicke",
+    "rating": 2.5
+  },
+  {
+    "title": "The Invisible Man",
+    "director": "Leigh Whannell",
+    "rating": 4
+  },
+  {
+    "title": "You've Got Mail",
+    "director": "Nora Ephron",
+    "rating": 2
+  },
+  {
+    "title": "The Blair Witch Project",
+    "director": "Daniel Myrick",
+    "rating": 4
+  },
+  {
+    "title": "Isle of Flowers",
+    "director": "Jorge Furtado",
+    "rating": 5
+  },
+  {
+    "title": "Amanda Knox",
+    "director": "Rod Blackhurst",
+    "rating": 3.5
+  },
+  {
+    "title": "Babyteeth",
+    "director": "Shannon Murphy",
+    "rating": 4.5
+  },
+  {
+    "title": "No",
+    "director": "Ryûhei Kitamura",
+    "rating": 4
+  },
+  {
+    "title": "Resolution",
+    "director": "Justin Benson",
+    "rating": 4.5
+  },
+  {
+    "title": "The Dead Zone",
+    "director": "David Cronenberg",
+    "rating": 3
+  },
+  {
+    "title": "Palm Springs",
+    "director": "Max Barbakow",
+    "rating": 4
+  },
+  {
+    "title": "The Rental",
+    "director": "Dave Franco",
+    "rating": 3.5
+  },
+  {
+    "title": "Dating Amber",
+    "director": "David Freyne",
+    "rating": 2
+  },
+  {
+    "title": "Color Out of Space",
+    "director": "Richard Stanley",
+    "rating": 2
+  },
+  {
+    "title": "Battle of the Classes",
+    "director": "Michel Leclerc",
+    "rating": 2
+  },
+  {
+    "title": "I'm Thinking of Ending Things",
+    "director": "Charlie Kaufman",
+    "rating": 4
+  },
+  {
+    "title": "Mulan",
+    "director": "Niki Caro",
+    "rating": 2.5
+  },
+  {
+    "title": "Searching",
+    "director": "Aneesh Chaganty",
+    "rating": 3
+  },
+  {
+    "title": "Incendies",
+    "director": "Denis Villeneuve",
+    "rating": 4.5
+  },
+  {
+    "title": "Palo Alto",
+    "director": "Gia Coppola",
+    "rating": 2.5
+  },
+  {
+    "title": "The Devil All the Time",
+    "director": "Antonio Campos",
+    "rating": 2.5
+  },
+  {
+    "title": "Thoroughbreds",
+    "director": "Cory Finley",
+    "rating": 3
+  },
+  {
+    "title": "TransSiberian",
+    "director": "Brad Anderson",
+    "rating": 3
+  },
+  {
+    "title": "Titanic",
+    "director": "James Cameron",
+    "rating": 4
+  },
+  {
+    "title": "The Haunting of Bly Manor",
+    "director": "Ciarán Foy",
+    "rating": 2.5
+  },
+  {
+    "title": "The Farewell",
+    "director": "Lulu Wang",
+    "rating": 3
+  },
+  {
+    "title": "Burn After Reading",
+    "director": "Ethan Coen",
+    "rating": 3
+  },
+  {
+    "title": "Bad Education",
+    "director": "Pedro Almodóvar",
+    "rating": 3
+  },
+  {
+    "title": "Matilda",
+    "director": "Danny DeVito",
+    "rating": 3.5
+  },
+  {
+    "title": "The King of Comedy",
+    "director": "Martin Scorsese",
+    "rating": 3.5
+  },
+  {
+    "title": "Like Crazy",
+    "director": "Paolo Virzì",
+    "rating": 3.5
+  },
+  {
+    "title": "On the Rocks",
+    "director": "Sofia Coppola",
+    "rating": 3.5
+  },
+  {
+    "title": "The Dead Don't Die",
+    "director": "Jim Jarmusch",
+    "rating": 3
+  },
+  {
+    "title": "The Midnight Sky",
+    "director": "George Clooney",
+    "rating": 1
+  },
+  {
+    "title": "Marie Antoinette",
+    "director": "Sofia Coppola",
+    "rating": 4
+  },
+  {
+    "title": "Election",
+    "director": "Alexander Payne",
+    "rating": 4
+  },
+  {
+    "title": "Swallow",
+    "director": "Carlo Mirabella-Davis",
+    "rating": 4
+  },
+  {
+    "title": "Freaky",
+    "director": "Christopher Landon",
+    "rating": 1
+  },
+  {
+    "title": "Promising Young Woman",
+    "director": "Emerald Fennell",
+    "rating": 2.5
+  },
+  {
+    "title": "The Assistant",
+    "director": "Kitty Green",
+    "rating": 4
+  },
+  {
+    "title": "The Loneliest Planet",
+    "director": "Julia Loktev",
+    "rating": 4
+  },
+  {
+    "title": "The Pervert's Guide to Ideology",
+    "director": "Sophie Fiennes",
+    "rating": 3
+  },
+  {
+    "title": "Spring",
+    "director": "Justin Benson",
+    "rating": 2
+  },
+  {
+    "title": "After the Wedding",
+    "director": "Bart Freundlich",
+    "rating": 2
+  },
+  {
+    "title": "Another Round",
+    "director": "Thomas Vinterberg",
+    "rating": 2
+  },
+  {
+    "title": "Synchronic",
+    "director": "Justin Benson",
+    "rating": 2.5
+  },
+  {
+    "title": "Apples",
+    "director": "Christos Nikou",
+    "rating": 3
+  },
+  {
+    "title": "Central Station",
+    "director": "Walter Salles",
+    "rating": 4
+  },
+  {
+    "title": "Basic Instinct",
+    "director": "Paul Verhoeven",
+    "rating": 3
+  },
+  {
+    "title": "Basic Sanitation: The Movie",
+    "director": "Jorge Furtado",
+    "rating": 4
+  },
+  {
+    "title": "WandaVision",
+    "director": "Nnesaga",
+    "rating": 2.5
+  },
+  {
+    "title": "Judas and the Black Messiah",
+    "director": "Shaka King",
+    "rating": 4
+  },
+  {
+    "title": "Force Majeure",
+    "director": "Ruben Östlund",
+    "rating": 3
+  },
+  {
+    "title": "Bridget Jones's Diary",
+    "director": "Sharon Maguire",
+    "rating": 3
+  },
+  {
+    "title": "Drop Dead Gorgeous",
+    "director": "Michael Patrick Jann",
+    "rating": 5
+  },
+  {
+    "title": "Young Adult",
+    "director": "Jason Reitman",
+    "rating": 4
+  },
+  {
+    "title": "Minari",
+    "director": "Lee Isaac Chung",
+    "rating": 4
+  },
+  {
+    "title": "Love and Monsters",
+    "director": "Michael Matthews",
+    "rating": 2.5
+  },
+  {
+    "title": "French Exit",
+    "director": "Azazel Jacobs",
+    "rating": 3.5
+  },
+  {
+    "title": "The Woman in the Window",
+    "director": "Joe Wright",
+    "rating": 2
+  },
+  {
+    "title": "Shiva Baby",
+    "director": "Emma Seligman",
+    "rating": 5
+  },
+  {
+    "title": "Cruella",
+    "director": "Craig Gillespie",
+    "rating": 2.5
+  },
+  {
+    "title": "Synecdoche, New York",
+    "director": "Charlie Kaufman",
+    "rating": 5
+  },
+  {
+    "title": "Celeste & Jesse Forever",
+    "director": "Lee Toland Krieger",
+    "rating": 4
+  },
+  {
+    "title": "Censor",
+    "director": "Prano Bailey-Bond",
+    "rating": 2.5
+  },
+  {
+    "title": "A Fantastic Woman",
+    "director": "Sebastián Lelio",
+    "rating": 3.5
+  },
+  {
+    "title": "A Quiet Place Part II",
+    "director": "John Krasinski",
+    "rating": 3
+  },
+  {
+    "title": "Blue Valentine",
+    "director": "Derek Cianfrance",
+    "rating": 3.5
+  },
+  {
+    "title": "Match Point",
+    "director": "Woody Allen",
+    "rating": 1.5
+  },
+  {
+    "title": "Expecting Amy",
+    "director": "Ryan Cunningham",
+    "rating": 5
+  },
+  {
+    "title": "First Cow",
+    "director": "Kelly Reichardt",
+    "rating": 4
+  },
+  {
+    "title": "Persona",
+    "director": "Ingmar Bergman",
+    "rating": 5
+  },
+  {
+    "title": "Sweat",
+    "director": "Magnus von Horn",
+    "rating": 3.5
+  },
+  {
+    "title": "Summer of 85",
+    "director": "François Ozon",
+    "rating": 2.5
+  },
+  {
+    "title": "Saw",
+    "director": "James Wan",
+    "rating": 2.5
+  },
+  {
+    "title": "Paris, Texas",
+    "director": "Wim Wenders",
+    "rating": 3
+  },
+  {
+    "title": "Menarche",
+    "director": "Lillah Halla",
+    "rating": 4
+  },
+  {
+    "title": "Nymphomaniac: Vol. I",
+    "director": "Lars von Trier",
+    "rating": 3.5
+  },
+  {
+    "title": "Alone",
+    "director": "John Hyams",
+    "rating": 3.5
+  },
+  {
+    "title": "The Pink Cloud",
+    "director": "Iuli Gerbase",
+    "rating": 2
+  },
+  {
+    "title": "Pacific Rim",
+    "director": "Guillermo del Toro",
+    "rating": 3
+  },
+  {
+    "title": "The Matrix",
+    "director": "Lana Wachowski",
+    "rating": 3
+  },
+  {
+    "title": "The Matrix Reloaded",
+    "director": "Lana Wachowski",
+    "rating": 3.5
+  },
+  {
+    "title": "The Voyeurs",
+    "director": "Michael Mohan",
+    "rating": 2
   }
 ]
