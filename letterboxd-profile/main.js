@@ -10,7 +10,7 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const movielist = ratingsObj.slice(565, 570);   // 0 - 560 / 570 - 622 **Bugs: 1408 (337), bo burnham (488)
+const movielist = ratingsObj.slice(488, 489);
 
 async function getMoviesFromCsv(movies) {
     const response = await Promise.all(movies.map(async (movie) => {
@@ -33,6 +33,16 @@ async function getMovieID(name, year) {
     const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${process.env.KEY}/${name} ${year}`);
     const data = await response.json();
     const movieId = data.results[0].id;
+    const result = await getDirectorName(movieId)
+    .catch((error) => { const result = tryThisInstead(name); return result });
+    return result;
+}
+
+async function tryThisInstead(name) {
+    const response = await fetch(`https://imdb-api.com/en/API/SearchMovie/${process.env.KEY}/${name}`);
+    const data = await response.json();
+    console.log(data.results[0].title);
+    const movieId = data.results[0].id;
     const result = await getDirectorName(movieId);
     return result;
 }
@@ -47,4 +57,7 @@ async function getDirectorName(movieid) {
 (async () => {
     const movies = await getMoviesFromCsv(movielist);
     console.log('Saved!');
-})()
+})().catch(error => {
+    console.log('deu erro :(');
+    console.log(error);
+})

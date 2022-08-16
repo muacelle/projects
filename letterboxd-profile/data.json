@@ -2938,5 +2938,60 @@
     "title": "Open Your Eyes",
     "director": "Alejandro Amenábar",
     "rating": 3.5
+  },
+  {
+    "title": "The Act",
+    "director": "Travis Cluff",
+    "rating": 3.5
+  },
+  {
+    "title": "Normal People",
+    "director": "Lenny Abrahamson",
+    "rating": 4
+  },
+  {
+    "title": "The Queen's Gambit",
+    "director": "Scott Frank",
+    "rating": 3
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "director": "Mike Flanagan",
+    "rating": 4
+  },
+  {
+    "title": "Mare of Easttown",
+    "director": "Craig Zobel",
+    "rating": 3.5
+  },
+  {
+    "title": "Sharp Objects",
+    "director": "Jean-Marc Vallée",
+    "rating": 3.5
+  },
+  {
+    "title": "Alias Grace",
+    "director": "Mary Harron",
+    "rating": 3.5
+  },
+  {
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "rating": 4.5
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "rating": 4.5
+  },
+  {
+    "title": "1408",
+    "director": "Mikael Håfström",
+    "rating": 3
+  },
+  {
+    "title": "Bo Burnham: Inside",
+    "director": "Bo Burnham",
+    "rating": 3.5
   }
 ]
