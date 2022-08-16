@@ -1,6 +1,6 @@
 import movies from './data.json' assert {type: 'json'}; 
 
-function getFavorites (list) {
+function mostWatched (list) {
     let arr = [];
     let count = {};
     list.forEach(elem => { arr.push(elem.director) });             // cria uma arr com todas as entradas de diretores
@@ -11,7 +11,4 @@ function getFavorites (list) {
     .sort((a, b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0)); // organiza por ordem dos + assistidos
 }
 
-(async () => {
-    const grouped = getFavorites(movies);
-    console.log(grouped);
-})()
+console.log(mostWatched(movies))
