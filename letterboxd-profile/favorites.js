@@ -2,7 +2,6 @@ import movies from './data.json' assert {type: 'json'};
 import fetch from 'node-fetch';
 import _, { groupBy, map, extend } from 'underscore';
 import 'dotenv/config';
-import { parse } from 'csv-parse/sync';
 import fs from 'fs'
 
 function mostWatched (list) {
@@ -40,7 +39,6 @@ function getAverage(arr) {
 
 let mostWatchedList = mostWatched(movies)
 let bestRatedList = bestRated(movies)
-
 let firstFive = bestRatedList.slice(0, 5);
 
 async function getPictures(list) {
