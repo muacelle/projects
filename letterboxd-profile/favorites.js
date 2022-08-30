@@ -41,7 +41,7 @@ let mostWatchedList = mostWatched(movies)
 let bestRatedList = bestRated(movies)
 
 let topWatched = mostWatchedList.slice(0, 5);
-let topFive = bestRatedList.slice(0, 5);
+let topRated = bestRatedList.slice(0, 5);
 
 async function getPictures(list) {
     const newArr = await Promise.all(list.map(async (arr) => {
@@ -75,4 +75,5 @@ async function getPicUrl(arr) {
     return url;
 }
 
-getPictures(topWatched);
+// getPictures(topWatched);
+// getPictures(topRated);
