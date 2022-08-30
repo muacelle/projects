@@ -1,5 +1,7 @@
 import movies from './data.json' assert {type: 'json'}; 
+import fetch from 'node-fetch';
 import _, { groupBy, map, extend } from 'underscore';
+import 'dotenv/config';
 
 function mostWatched (list) {
     let arr = [];
@@ -34,5 +36,30 @@ function getAverage(arr) {
     return { average };
 }
 
-console.log(mostWatched(movies))
-console.log(bestRated(movies))
+let mostWatchedList = mostWatched(movies)
+let bestRatedList = bestRated(movies)
+
+let firstFive = bestRatedList.slice(0, 5);
+let pictures = [];
+
+async function getPictures(list) {
+    const newArr = await Promise.all(list.map(async (arr) => {
+        const director = arr[0];
+        const rating = arr[1];
+        const url = await getPicUrl(arr);
+        return {director, rating, url}
+    }))
+
+    pictures = [...newArr];
+    console.log(pictures);
+    return newArr;
+}
+
+async function getPicUrl(arr) {
+    const response = await fetch(`https://imdb-api.com/en/API/SearchName/${process.env.KEY}/${arr[0]}`);
+    const data = await response.json();
+    const url = data.results[0].image;
+    return url;
+}
+
+getPictures(firstFive);

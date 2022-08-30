@@ -3,6 +3,8 @@ import fs from 'fs'
 import fetch from 'node-fetch';
 import 'dotenv/config';
 
+//My CSV Reader
+
 const ratingsCsv = fs.readFileSync('ratings.csv', 'utf-8').toString();
 
 const ratingsObj = parse(ratingsCsv, {
@@ -10,7 +12,9 @@ const ratingsObj = parse(ratingsCsv, {
     skip_empty_lines: true
 });
 
-const movielist = ratingsObj.slice(10, 11);
+const movielist = ratingsObj.slice(12, 13);
+
+// Getting IMDB API Data
 
 async function getMoviesFromCsv(movies) {
     const response = await Promise.all(movies.map(async (movie) => {
@@ -70,6 +74,7 @@ async function getDirectorPhoto(id) {
 (async () => {
     const movies = await getMoviesFromCsv(movielist);
     console.log('Saved!');
+    console.log(photoList);
 })().catch(error => {
     console.log('deu erro :(');
     console.log(error);
