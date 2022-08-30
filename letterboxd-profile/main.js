@@ -14,7 +14,7 @@ const ratingsObj = parse(ratingsCsv, {
 
 const movielist = ratingsObj.slice(12, 13);
 
-// Getting IMDB API Data
+// Getting Data from IMDB API 
 
 async function getMoviesFromCsv(movies) {
     const response = await Promise.all(movies.map(async (movie) => {
