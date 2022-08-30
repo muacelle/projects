@@ -1,0 +1,27 @@
+[
+  {
+    "director": "Denis Villeneuve",
+    "filmsWatched": 8,
+    "url": "https://m.media-amazon.com/images/M/MV5BMzU2MDk5MDI2MF5BMl5BanBnXkFtZTcwNDkwMjMzNA@@._V1_Ratio0.7273_AL_.jpg"
+  },
+  {
+    "director": "M. Night Shyamalan",
+    "filmsWatched": 7,
+    "url": "https://m.media-amazon.com/images/M/MV5BMTczMTA5OTMxMl5BMl5BanBnXkFtZTcwMDA4NDg1Mw@@._V1_Ratio1.5000_AL_.jpg"
+  },
+  {
+    "director": "Pedro Almodóvar",
+    "filmsWatched": 7,
+    "url": "https://m.media-amazon.com/images/M/MV5BMGM2NTk2MDEtN2Y4Ni00YzNjLWE1NDQtMWM4MjJlZWI1NmU2XkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_Ratio0.7273_AL_.jpg"
+  },
+  {
+    "director": "Yorgos Lanthimos",
+    "filmsWatched": 6,
+    "url": "https://m.media-amazon.com/images/M/MV5BMWYwMTVlOGMtYTQzNi00NzM4LTliNDgtZWU4Zjc4YjQ2NDJmXkEyXkFqcGdeQXVyNTQ3MDc0NTg@._V1_Ratio1.7727_AL_.jpg"
+  },
+  {
+    "director": "David Yates",
+    "filmsWatched": 6,
+    "url": "https://m.media-amazon.com/images/M/MV5BMTY2NTU4NjY4M15BMl5BanBnXkFtZTYwNjIxOTI1._V1_Ratio0.7273_AL_.jpg"
+  }
+]

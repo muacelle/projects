@@ -39,18 +39,32 @@ function getAverage(arr) {
 
 let mostWatchedList = mostWatched(movies)
 let bestRatedList = bestRated(movies)
-let firstFive = bestRatedList.slice(0, 5);
+
+let topWatched = mostWatchedList.slice(0, 5);
+let topFive = bestRatedList.slice(0, 5);
 
 async function getPictures(list) {
     const newArr = await Promise.all(list.map(async (arr) => {
-        const director = arr[0];
-        const rating = arr[1];
-        const url = await getPicUrl(arr);
-        return {director, rating, url}
+        if (list == topWatched) {
+            const director = arr[0];
+            const filmsWatched = arr[1];
+            const url = await getPicUrl(arr);
+            return {director, filmsWatched, url}
+        } else {
+            const director = arr[0];
+            const rating = arr[1];
+            const url = await getPicUrl(arr);
+            return {director, rating, url}
+        }
     }))
 
-    const json = JSON.stringify(newArr, null, 2)
-    fs.writeFileSync('topfive.json', json)
+    if (list == topWatched) {
+        const json = JSON.stringify(newArr, null, 2)
+        fs.writeFileSync('topwatched.json', json)
+    } else {
+        const json = JSON.stringify(newArr, null, 2)
+        fs.writeFileSync('topfive.json', json)
+    }
     return newArr;
 }
 
@@ -61,4 +75,4 @@ async function getPicUrl(arr) {
     return url;
 }
 
-getPictures(firstFive);
+getPictures(topWatched);
