@@ -1,0 +1,27 @@
+[
+  {
+    "director": "Jordan Peele",
+    "rating": 4.75,
+    "url": "https://m.media-amazon.com/images/M/MV5BOGYzMTdiMTAtZjkwZi00NmYwLWE5MTYtNmY1ZmJlMWY4ZGM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg"
+  },
+  {
+    "director": "Luca Guadagnino",
+    "rating": 4.5,
+    "url": "https://m.media-amazon.com/images/M/MV5BNjE5MzI5NTcyN15BMl5BanBnXkFtZTcwNDc4MDg1Mw@@._V1_Ratio0.7727_AL_.jpg"
+  },
+  {
+    "director": "Charlie Kaufman",
+    "rating": 4.5,
+    "url": "https://m.media-amazon.com/images/M/MV5BMTY5NzUyNjYxM15BMl5BanBnXkFtZTYwMDM1NDg0._V1_Ratio0.7273_AL_.jpg"
+  },
+  {
+    "director": "Roman Polanski",
+    "rating": 4.5,
+    "url": "https://m.media-amazon.com/images/M/MV5BMTAzNzgwMzMyNDNeQTJeQWpwZ15BbWU2MDg0MDkzNA@@._V1_Ratio0.7273_AL_.jpg"
+  },
+  {
+    "director": "Yorgos Lanthimos",
+    "rating": 4.42,
+    "url": "https://m.media-amazon.com/images/M/MV5BMWYwMTVlOGMtYTQzNi00NzM4LTliNDgtZWU4Zjc4YjQ2NDJmXkEyXkFqcGdeQXVyNTQ3MDc0NTg@._V1_Ratio1.7727_AL_.jpg"
+  }
+]

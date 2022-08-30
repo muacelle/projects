@@ -2,6 +2,8 @@ import movies from './data.json' assert {type: 'json'};
 import fetch from 'node-fetch';
 import _, { groupBy, map, extend } from 'underscore';
 import 'dotenv/config';
+import { parse } from 'csv-parse/sync';
+import fs from 'fs'
 
 function mostWatched (list) {
     let arr = [];
@@ -40,7 +42,6 @@ let mostWatchedList = mostWatched(movies)
 let bestRatedList = bestRated(movies)
 
 let firstFive = bestRatedList.slice(0, 5);
-let pictures = [];
 
 async function getPictures(list) {
     const newArr = await Promise.all(list.map(async (arr) => {
@@ -50,8 +51,8 @@ async function getPictures(list) {
         return {director, rating, url}
     }))
 
-    pictures = [...newArr];
-    console.log(pictures);
+    const json = JSON.stringify(newArr, null, 2)
+    fs.writeFileSync('topfive.json', json)
     return newArr;
 }
 
