@@ -35,7 +35,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
 }
 
 .container > h1 {
@@ -50,7 +51,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 8px 16px;
     width: 330px;
     color: #9ab;
     border:#202830 3px solid;
@@ -98,6 +99,7 @@ body {
     height: 400px;
     margin: 5px 0;
     object-fit: cover;
+    object-position: top;
 }
 
 .star > img {
@@ -112,4 +114,32 @@ body {
     height: 27px;
     vertical-align: -7px;
     margin-right: 5px;
+}
+
+@media (max-height: 780px) {
+    .eye > img {
+        height: 26px;
+    }
+
+    .star > img {
+        height: 20px;
+    }
+
+    .card > img {
+        height: 300px;
+        object-position: top;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        padding: 8px 16px;
+        width: 260px;
+    }
 }
