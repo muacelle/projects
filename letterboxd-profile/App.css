@@ -45,7 +45,7 @@ body {
     font-weight: 400;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin: 30px auto 0px;
 }
 
 .card {
@@ -60,12 +60,13 @@ body {
 }
 
 .nav img {
-    max-height: 5.5rem;
+    max-height: 4.5rem;
+    margin-right: -5px;
 }
 
 .nav h1 {
-    font-size: 3rem;
-    margin: 22px 0;
+    font-size: 2.5rem;
+    margin: 15px 0;
 }
 
 .card h3, h2, p {
