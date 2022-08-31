@@ -45,7 +45,7 @@ body {
     font-weight: 400;
     width: 100%;
     text-align: center;
-    margin: 30px auto 0px;
+    margin: 20px auto 0px;
 }
 
 .card {
@@ -55,7 +55,7 @@ body {
     width: 330px;
     color: #9ab;
     border:#202830 3px solid;
-    margin: 20px;
+    margin: 10px;
     border-radius: 5px;
 }
 
