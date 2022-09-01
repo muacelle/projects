@@ -10,13 +10,13 @@ function Nav() {
 
 // Top Rated 
 
-function XCard(props) {
+function Card(props) {
     return (
         <div className="card">
             <h1>{props.ranking}</h1>
             <img className="pic" src={props.img}/>
             <h3>{props.name}</h3>
-            <p><span className="star"><img src="./images/star.png"/></span>Average Rating: <span>{props.rating}</span></p>
+            <p><span className={props.className}><img src={props.imgsrc}/></span>{props.text}<span>{props.num}</span></p>
         </div>
     )
 }
@@ -25,23 +25,32 @@ function TopRated() {
     return (
         <div className="container">
             <h1>Marcelle's best rated Directors</h1>
-            <XCard 
+            <Card 
             ranking="1"
             img="https://m.media-amazon.com/images/M/MV5BOGYzMTdiMTAtZjkwZi00NmYwLWE5MTYtNmY1ZmJlMWY4ZGM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg"
             name="Jordan Peele"
-            rating="4.75"
+            className="star"
+            imgsrc="./images/star.png"
+            text="Average Rating: "
+            num="4.75"
             />
-            <XCard
+            <Card
             ranking="2"
             img="https://m.media-amazon.com/images/M/MV5BNjE5MzI5NTcyN15BMl5BanBnXkFtZTcwNDc4MDg1Mw@@._V1_Ratio0.7727_AL_.jpg"
             name="Luca Guadagnino"
-            rating="4.5"
+            className="star"
+            imgsrc="./images/star.png"
+            text="Average Rating: "
+            num="4.75"
             />
-            <XCard 
+            <Card 
             ranking="3"
             img="https://m.media-amazon.com/images/M/MV5BMTY5NzUyNjYxM15BMl5BanBnXkFtZTYwMDM1NDg0._V1_Ratio0.7273_AL_.jpg"
             name="Charlie Kaufman"
-            rating="4.5"
+            className="star"
+            imgsrc="./images/star.png"
+            text="Average Rating: "
+            num="4.75"
             />
         </div>
     )
@@ -49,38 +58,36 @@ function TopRated() {
 
 // Most Watched
 
-function YCard(props) {
-    return (
-        <div className="card">
-            <h1>{props.ranking}</h1>
-            <img src={props.img}/>
-            <h3>{props.name}</h3>
-            <p><span className="eye"><img src="./images/eye.png"/></span>Films Watched: <span>{props.watched}</span></p>
-        </div>
-    )
-}
-
 function MostWatched() {
     return (
         <div className="container">
             <h1>Marcelle's most watched Directors</h1>
-            <YCard 
+            <Card 
             ranking="1"
             img="https://m.media-amazon.com/images/M/MV5BMzU2MDk5MDI2MF5BMl5BanBnXkFtZTcwNDkwMjMzNA@@._V1_Ratio0.7273_AL_.jpg"
             name="Denis Villeneuve"
-            watched="8"
+            className="eye"
+            imgsrc="./images/eye.png"
+            text="Films Watched: "
+            num="8"
             />
-            <YCard 
+            <Card 
             ranking="2"
             img="https://m.media-amazon.com/images/M/MV5BMTczMTA5OTMxMl5BMl5BanBnXkFtZTcwMDA4NDg1Mw@@._V1_Ratio1.5000_AL_.jpg"
             name="M. Night Shyamalan"
-            watched="7"
+            className="eye"
+            imgsrc="./images/eye.png"
+            text="Films Watched: "
+            num="7"
             />
-            <YCard 
+            <Card 
             ranking="3"
             img="https://m.media-amazon.com/images/M/MV5BMGM2NTk2MDEtN2Y4Ni00YzNjLWE1NDQtMWM4MjJlZWI1NmU2XkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_Ratio0.7273_AL_.jpg"
             name="Pedro Almodóvar"
-            watched="7"
+            className="eye"
+            imgsrc="./images/eye.png"
+            text="Films Watched: "
+            num="7"
             />
         </div>
     )
