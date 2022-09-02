@@ -5,7 +5,6 @@ import quotes from "./quotes-list.js"
 import router from './routes/quotes.js';
 
 const app = express();
-const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use('/quotes', quotesRoutes);
@@ -53,4 +52,4 @@ function getQuoteByID(id) {
     return IDFound;
 }
 
-app.listen(PORT, () => console.log(`Server running on port: http://localhost${PORT}`));
+app.listen(proccess.env.PORT || 5000, () => console.log(`Server running on port: http://localhost:5000`));
