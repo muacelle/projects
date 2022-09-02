@@ -1,5 +1,5 @@
 import express from "express";
-import quotes from "../quotes.js"
+import quotes from "../quotes-list.js"
 
 const router = express.Router();
 
