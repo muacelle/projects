@@ -1,0 +1,42 @@
+
+
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #888C03;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #252601;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#imagebox {
+    background-color: #BACBD9;
+    height: 500px;
+}
+
+#image {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#breed select {
+    font-size: 1.5rem;
+    color: #BACBD9;
+    background-color: #888C03;
+    padding: 1rem 1rem;
+    border-color: transparent;
+}
