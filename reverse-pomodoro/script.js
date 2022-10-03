@@ -49,6 +49,8 @@ function timerFocus() {
     } else {
         focusWatch.innerText = `0${hrs}:${mins}:${secs}`;
     }
+
+    return `0${hrs}:0${mins}:${secs}`;
 }
 
 function timerBreak() {
@@ -101,3 +103,5 @@ function stopFocus() {
     hrs = 0;
     breakInterval = setInterval(timerBreak, 1000);
 }
+
+module.exports = { addCycle, getCycles, timerFocus, timerBreak, startFocus, stopFocus };
